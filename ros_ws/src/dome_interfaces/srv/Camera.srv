@@ -1,0 +1,3 @@
+string camera_action
+---
+string[10] camera_response

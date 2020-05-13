@@ -1,0 +1,27 @@
+{
+  "package_name": "dome_interfaces",
+  "output_dir": "/home/francesc/Escritorio/ros_ws/build/dome_interfaces/rosidl_typesupport_fastrtps_c/dome_interfaces",
+  "template_dir": "/opt/ros/dashing/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/francesc/Escritorio/ros_ws/build/dome_interfaces/rosidl_adapter/dome_interfaces:msg/Sensor.idl",
+    "/home/francesc/Escritorio/ros_ws/build/dome_interfaces/rosidl_adapter/dome_interfaces:srv/Dome.idl",
+    "/home/francesc/Escritorio/ros_ws/build/dome_interfaces/rosidl_adapter/dome_interfaces:srv/Weather.idl",
+    "/home/francesc/Escritorio/ros_ws/build/dome_interfaces/rosidl_adapter/dome_interfaces:srv/Camera.idl",
+    "/home/francesc/Escritorio/ros_ws/build/dome_interfaces/rosidl_adapter/dome_interfaces:srv/Telescope.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/dashing/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/dashing/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/francesc/Escritorio/ros_ws/build/dome_interfaces/rosidl_adapter/dome_interfaces/msg/Sensor.idl",
+    "/home/francesc/Escritorio/ros_ws/build/dome_interfaces/rosidl_adapter/dome_interfaces/srv/Dome.idl",
+    "/home/francesc/Escritorio/ros_ws/build/dome_interfaces/rosidl_adapter/dome_interfaces/srv/Weather.idl",
+    "/home/francesc/Escritorio/ros_ws/build/dome_interfaces/rosidl_adapter/dome_interfaces/srv/Camera.idl",
+    "/home/francesc/Escritorio/ros_ws/build/dome_interfaces/rosidl_adapter/dome_interfaces/srv/Telescope.idl"
+  ]
+}

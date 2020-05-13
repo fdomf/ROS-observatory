@@ -1,0 +1,5 @@
+/home/francesc/Escritorio/ros_ws/build/dome_interfaces/rosidl_adapter/dome_interfaces:msg/Sensor.idl
+/home/francesc/Escritorio/ros_ws/build/dome_interfaces/rosidl_adapter/dome_interfaces:srv/Dome.idl
+/home/francesc/Escritorio/ros_ws/build/dome_interfaces/rosidl_adapter/dome_interfaces:srv/Weather.idl
+/home/francesc/Escritorio/ros_ws/build/dome_interfaces/rosidl_adapter/dome_interfaces:srv/Camera.idl
+/home/francesc/Escritorio/ros_ws/build/dome_interfaces/rosidl_adapter/dome_interfaces:srv/Telescope.idl

@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.001037] (-) JobUnselected: {'identifier': 'dome_interfaces'}
+[0.001206] (dome_servcli) JobQueued: {'identifier': 'dome_servcli', 'dependencies': OrderedDict([('dome_interfaces', '/home/francesc/Escritorio/ros_ws/install/dome_interfaces')])}
+[0.001291] (dome_servcli) JobStarted: {'identifier': 'dome_servcli'}
+[0.007782] (dome_servcli) JobEnded: {'identifier': 'dome_servcli', 'rc': 1}
+[0.018407] (-) EventReactorShutdown: {}

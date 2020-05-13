@@ -1,0 +1,23 @@
+[0.517s] running egg_info
+[0.517s] writing /home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info/PKG-INFO
+[0.518s] writing dependency_links to /home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info/dependency_links.txt
+[0.518s] writing entry points to /home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info/entry_points.txt
+[0.518s] writing requirements to /home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info/requires.txt
+[0.519s] writing top-level names to /home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info/top_level.txt
+[0.546s] reading manifest file '/home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info/SOURCES.txt'
+[0.547s] writing manifest file '/home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info/SOURCES.txt'
+[0.548s] running build
+[0.548s] running build_py
+[0.548s] copying camera_servcli/camera_service.py -> /home/francesc/Escritorio/ros_ws/build/camera_servcli/build/lib/camera_servcli
+[0.548s] running install
+[0.549s] running install_lib
+[0.549s] copying /home/francesc/Escritorio/ros_ws/build/camera_servcli/build/lib/camera_servcli/camera_service.py -> /home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/python3.6/site-packages/camera_servcli
+[0.549s] byte-compiling /home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/python3.6/site-packages/camera_servcli/camera_service.py to camera_service.cpython-36.pyc
+[0.550s] running install_data
+[0.550s] running install_egg_info
+[0.551s] removing '/home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/python3.6/site-packages/camera_servcli-0.0.0-py3.6.egg-info' (and everything under it)
+[0.551s] Copying /home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info to /home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/python3.6/site-packages/camera_servcli-0.0.0-py3.6.egg-info
+[0.552s] running install_scripts
+[0.566s] Installing client script to /home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/camera_servcli
+[0.567s] Installing service script to /home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/camera_servcli
+[0.567s] writing list of installed files to '/home/francesc/Escritorio/ros_ws/build/camera_servcli/install.log'

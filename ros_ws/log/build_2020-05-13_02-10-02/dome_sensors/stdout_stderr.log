@@ -1,0 +1,22 @@
+[0.552s] running egg_info
+[0.552s] writing /home/francesc/Escritorio/ros_ws/build/dome_sensors/dome_sensors.egg-info/PKG-INFO
+[0.553s] writing dependency_links to /home/francesc/Escritorio/ros_ws/build/dome_sensors/dome_sensors.egg-info/dependency_links.txt
+[0.553s] writing entry points to /home/francesc/Escritorio/ros_ws/build/dome_sensors/dome_sensors.egg-info/entry_points.txt
+[0.553s] writing requirements to /home/francesc/Escritorio/ros_ws/build/dome_sensors/dome_sensors.egg-info/requires.txt
+[0.553s] writing top-level names to /home/francesc/Escritorio/ros_ws/build/dome_sensors/dome_sensors.egg-info/top_level.txt
+[0.583s] reading manifest file '/home/francesc/Escritorio/ros_ws/build/dome_sensors/dome_sensors.egg-info/SOURCES.txt'
+[0.584s] writing manifest file '/home/francesc/Escritorio/ros_ws/build/dome_sensors/dome_sensors.egg-info/SOURCES.txt'
+[0.585s] running build
+[0.585s] running build_py
+[0.585s] copying dome_sensors/dome_sensor_publisher.py -> /home/francesc/Escritorio/ros_ws/build/dome_sensors/build/lib/dome_sensors
+[0.586s] running install
+[0.586s] running install_lib
+[0.586s] copying /home/francesc/Escritorio/ros_ws/build/dome_sensors/build/lib/dome_sensors/dome_sensor_publisher.py -> /home/francesc/Escritorio/ros_ws/install/dome_sensors/lib/python3.6/site-packages/dome_sensors
+[0.586s] byte-compiling /home/francesc/Escritorio/ros_ws/install/dome_sensors/lib/python3.6/site-packages/dome_sensors/dome_sensor_publisher.py to dome_sensor_publisher.cpython-36.pyc
+[0.587s] running install_data
+[0.587s] running install_egg_info
+[0.589s] removing '/home/francesc/Escritorio/ros_ws/install/dome_sensors/lib/python3.6/site-packages/dome_sensors-0.0.0-py3.6.egg-info' (and everything under it)
+[0.589s] Copying /home/francesc/Escritorio/ros_ws/build/dome_sensors/dome_sensors.egg-info to /home/francesc/Escritorio/ros_ws/install/dome_sensors/lib/python3.6/site-packages/dome_sensors-0.0.0-py3.6.egg-info
+[0.590s] running install_scripts
+[0.606s] Installing talker script to /home/francesc/Escritorio/ros_ws/install/dome_sensors/lib/dome_sensors
+[0.606s] writing list of installed files to '/home/francesc/Escritorio/ros_ws/build/dome_sensors/install.log'

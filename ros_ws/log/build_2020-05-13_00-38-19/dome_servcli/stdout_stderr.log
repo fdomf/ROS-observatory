@@ -1,0 +1,23 @@
+[0.470s] running egg_info
+[0.470s] writing /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/PKG-INFO
+[0.471s] writing dependency_links to /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/dependency_links.txt
+[0.471s] writing entry points to /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/entry_points.txt
+[0.472s] writing requirements to /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/requires.txt
+[0.472s] writing top-level names to /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/top_level.txt
+[0.498s] reading manifest file '/home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/SOURCES.txt'
+[0.499s] writing manifest file '/home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/SOURCES.txt'
+[0.499s] running build
+[0.500s] running build_py
+[0.500s] copying dome_servcli/dome_service.py -> /home/francesc/Escritorio/ros_ws/build/dome_servcli/build/lib/dome_servcli
+[0.500s] running install
+[0.500s] running install_lib
+[0.501s] copying /home/francesc/Escritorio/ros_ws/build/dome_servcli/build/lib/dome_servcli/dome_service.py -> /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli
+[0.501s] byte-compiling /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli/dome_service.py to dome_service.cpython-36.pyc
+[0.501s] running install_data
+[0.502s] running install_egg_info
+[0.503s] removing '/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli-0.0.0-py3.6.egg-info' (and everything under it)
+[0.503s] Copying /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info to /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli-0.0.0-py3.6.egg-info
+[0.504s] running install_scripts
+[0.518s] Installing client script to /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/dome_servcli
+[0.519s] Installing service script to /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/dome_servcli
+[0.519s] writing list of installed files to '/home/francesc/Escritorio/ros_ws/build/dome_servcli/install.log'

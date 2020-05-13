@@ -1,0 +1,25 @@
+[0.299s] Invoking command in '/home/francesc/Escritorio/ros_ws/src/dome_servcli': AMENT_PREFIX_PATH=/home/francesc/Escritorio/ros_ws/install/dome_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/francesc/Escritorio/ros_ws/install/dome_interfaces LD_LIBRARY_PATH=/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/francesc/Escritorio/ros_ws/build/dome_servcli build --build-base /home/francesc/Escritorio/ros_ws/build/dome_servcli/build install --prefix /home/francesc/Escritorio/ros_ws/install/dome_servcli --record /home/francesc/Escritorio/ros_ws/build/dome_servcli/install.log --single-version-externally-managed
+[0.536s] running egg_info
+[0.537s] writing /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/PKG-INFO
+[0.537s] writing dependency_links to /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/dependency_links.txt
+[0.538s] writing entry points to /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/entry_points.txt
+[0.538s] writing requirements to /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/requires.txt
+[0.538s] writing top-level names to /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/top_level.txt
+[0.567s] reading manifest file '/home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/SOURCES.txt'
+[0.568s] writing manifest file '/home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/SOURCES.txt'
+[0.569s] running build
+[0.569s] running build_py
+[0.569s] copying dome_servcli/dome_service.py -> /home/francesc/Escritorio/ros_ws/build/dome_servcli/build/lib/dome_servcli
+[0.569s] running install
+[0.570s] running install_lib
+[0.570s] copying /home/francesc/Escritorio/ros_ws/build/dome_servcli/build/lib/dome_servcli/dome_service.py -> /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli
+[0.570s] byte-compiling /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli/dome_service.py to dome_service.cpython-36.pyc
+[0.571s] running install_data
+[0.571s] running install_egg_info
+[0.573s] removing '/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli-0.0.0-py3.6.egg-info' (and everything under it)
+[0.573s] Copying /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info to /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli-0.0.0-py3.6.egg-info
+[0.574s] running install_scripts
+[0.591s] Installing client script to /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/dome_servcli
+[0.591s] Installing service script to /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/dome_servcli
+[0.591s] writing list of installed files to '/home/francesc/Escritorio/ros_ws/build/dome_servcli/install.log'
+[0.613s] Invoked command in '/home/francesc/Escritorio/ros_ws/src/dome_servcli' returned '0': AMENT_PREFIX_PATH=/home/francesc/Escritorio/ros_ws/install/dome_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/francesc/Escritorio/ros_ws/install/dome_interfaces LD_LIBRARY_PATH=/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/francesc/Escritorio/ros_ws/build/dome_servcli build --build-base /home/francesc/Escritorio/ros_ws/build/dome_servcli/build install --prefix /home/francesc/Escritorio/ros_ws/install/dome_servcli --record /home/francesc/Escritorio/ros_ws/build/dome_servcli/install.log --single-version-externally-managed

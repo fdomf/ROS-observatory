@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+/home/francesc/Escritorio/ros_ws/build/telescope_servcli/telescope_servcli.egg-info/PKG-INFO
+/home/francesc/Escritorio/ros_ws/build/telescope_servcli/telescope_servcli.egg-info/SOURCES.txt
+/home/francesc/Escritorio/ros_ws/build/telescope_servcli/telescope_servcli.egg-info/dependency_links.txt
+/home/francesc/Escritorio/ros_ws/build/telescope_servcli/telescope_servcli.egg-info/entry_points.txt
+/home/francesc/Escritorio/ros_ws/build/telescope_servcli/telescope_servcli.egg-info/requires.txt
+/home/francesc/Escritorio/ros_ws/build/telescope_servcli/telescope_servcli.egg-info/top_level.txt
+/home/francesc/Escritorio/ros_ws/build/telescope_servcli/telescope_servcli.egg-info/zip-safe
+resource/telescope_servcli
+telescope_servcli/__init__.py
+telescope_servcli/telescope_client.py
+telescope_servcli/telescope_service.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

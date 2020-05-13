@@ -1,0 +1,158 @@
+[0.110s] [  2%] Built target dome_interfaces__cpp
+[0.115s] [ 13%] Built target dome_interfaces__rosidl_generator_c
+[0.143s] [ 24%] Built target dome_interfaces__rosidl_typesupport_introspection_cpp
+[0.144s] [ 37%] Built target dome_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.144s] [ 46%] Built target dome_interfaces__rosidl_typesupport_introspection_c
+[0.183s] [ 57%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c
+[0.186s] [ 68%] Built target dome_interfaces__rosidl_typesupport_cpp
+[0.229s] [ 80%] Built target dome_interfaces__rosidl_typesupport_c
+[0.265s] [ 80%] Built target dome_interfaces
+[0.295s] [ 82%] Built target dome_interfaces__py
+[0.342s] [ 91%] Built target dome_interfaces__python
+[0.381s] [ 95%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.386s] [100%] Built target dome_interfaces__rosidl_typesupport_c__pyext
+[0.656s] [  2%] Built target dome_interfaces__cpp
+[0.658s] [ 13%] Built target dome_interfaces__rosidl_generator_c
+[0.688s] [ 24%] Built target dome_interfaces__rosidl_typesupport_introspection_cpp
+[0.700s] [ 46%] Built target dome_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.700s] [ 46%] Built target dome_interfaces__rosidl_typesupport_introspection_c
+[0.739s] [ 57%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c
+[0.744s] [ 68%] Built target dome_interfaces__rosidl_typesupport_cpp
+[0.776s] [ 80%] Built target dome_interfaces__rosidl_typesupport_c
+[0.808s] [ 80%] Built target dome_interfaces
+[0.844s] [ 82%] Built target dome_interfaces__py
+[0.894s] [ 91%] Built target dome_interfaces__python
+[0.934s] [ 95%] Built target dome_interfaces__rosidl_typesupport_c__pyext
+[0.942s] [100%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.977s] [36mInstall the project...[0m
+[0.988s] -- Install configuration: ""
+[0.989s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/rosidl_interfaces/dome_interfaces
+[0.989s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_c.so
+[0.990s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/library_path.sh
+[0.990s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_cpp.so
+[0.991s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[0.991s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[0.991s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_fastrtps_c.h
+[0.992s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__rosidl_typesupport_fastrtps_c.h
+[0.993s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[0.993s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_fastrtps_c.h
+[0.994s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.994s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__rosidl_typesupport_fastrtps_c.h
+[0.994s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.994s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[0.995s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[0.995s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome.h
+[0.995s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__functions.h
+[0.995s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__functions.c
+[0.996s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__struct.h
+[0.996s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__struct.h
+[0.996s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__functions.h
+[0.996s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__type_support.h
+[0.996s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__functions.c
+[0.997s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__type_support.h
+[0.997s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather.h
+[0.997s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[0.997s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__type_support.h
+[0.997s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action.h
+[0.998s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.998s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__functions.c
+[0.998s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__struct.h
+[0.998s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__struct.h
+[0.998s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor.h
+[0.999s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__functions.h
+[0.999s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__type_support.h
+[0.999s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__functions.c
+[1.000s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__functions.h
+[1.000s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_generator_c.so
+[1.000s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[1.000s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[1.000s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__rosidl_typesupport_fastrtps_cpp.hpp
+[1.001s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_fastrtps_cpp.hpp
+[1.001s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dds_fastrtps
+[1.001s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[1.001s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.001s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_fastrtps_cpp.hpp
+[1.002s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/dds_fastrtps
+[1.002s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[1.002s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.002s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[1.002s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[1.003s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__struct.hpp
+[1.003s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__traits.hpp
+[1.003s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__struct.hpp
+[1.003s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__traits.hpp
+[1.003s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome.hpp
+[1.004s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather.hpp
+[1.004s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[1.004s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__struct.hpp
+[1.004s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__struct.hpp
+[1.004s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action.hpp
+[1.004s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__traits.hpp
+[1.004s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor.hpp
+[1.004s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__traits.hpp
+[1.004s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[1.004s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[1.004s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__type_support.c
+[1.005s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_introspection_c.h
+[1.005s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__rosidl_typesupport_introspection_c.h
+[1.005s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__type_support.c
+[1.005s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[1.005s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__rosidl_typesupport_introspection_c.h
+[1.005s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_introspection_c.h
+[1.005s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.005s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__type_support.c
+[1.005s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__type_support.c
+[1.006s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_introspection_c.so
+[1.006s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[1.006s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[1.006s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__type_support.cpp
+[1.006s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_introspection_cpp.hpp
+[1.006s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__rosidl_typesupport_introspection_cpp.hpp
+[1.006s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__type_support.cpp
+[1.006s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[1.006s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__type_support.cpp
+[1.006s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__type_support.cpp
+[1.006s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_introspection_cpp.hpp
+[1.007s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__rosidl_typesupport_introspection_cpp.hpp
+[1.007s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.007s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/pythonpath.sh
+[1.007s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/__init__.py
+[1.034s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg
+[1.034s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_sensor.py
+[1.034s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_action_s.c
+[1.035s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/__init__.py
+[1.035s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_action.py
+[1.035s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_sensor_s.c
+[1.035s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv
+[1.035s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/_dome.py
+[1.036s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/_weather.py
+[1.036s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/__init__.py
+[1.036s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/_weather_s.c
+[1.036s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/_dome_s.c
+[1.036s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/dome_interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[1.037s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/dome_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[1.038s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__python.so
+[1.039s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/msg/Sensor.idl
+[1.040s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome.idl
+[1.040s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Weather.idl
+[1.040s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/msg/Sensor.msg
+[1.041s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome.srv
+[1.041s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome_Request.msg
+[1.041s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome_Response.msg
+[1.041s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Weather.srv
+[1.042s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Weather_Request.msg
+[1.042s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Weather_Response.msg
+[1.042s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/package_run_dependencies/dome_interfaces
+[1.042s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/parent_prefix_path/dome_interfaces
+[1.042s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/ament_prefix_path.sh
+[1.043s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/path.sh
+[1.043s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/local_setup.bash
+[1.043s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/local_setup.sh
+[1.043s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/local_setup.zsh
+[1.044s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/packages/dome_interfaces
+[1.044s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.044s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.044s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.044s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/dome_interfacesConfig.cmake
+[1.045s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/dome_interfacesConfig-version.cmake
+[1.045s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/package.xml

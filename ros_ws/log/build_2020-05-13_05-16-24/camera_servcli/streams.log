@@ -1,0 +1,41 @@
+[0.290s] Invoking command in '/home/francesc/Escritorio/ros_ws/src/camera_servcli': PYTHONPATH=/home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_sensors/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/python3 setup.py egg_info --egg-base /home/francesc/Escritorio/ros_ws/build/camera_servcli build --build-base /home/francesc/Escritorio/ros_ws/build/camera_servcli/build install --prefix /home/francesc/Escritorio/ros_ws/install/camera_servcli --record /home/francesc/Escritorio/ros_ws/build/camera_servcli/install.log --single-version-externally-managed
+[0.495s] running egg_info
+[0.495s] creating /home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info
+[0.496s] writing /home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info/PKG-INFO
+[0.496s] writing dependency_links to /home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info/dependency_links.txt
+[0.496s] writing entry points to /home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info/entry_points.txt
+[0.496s] writing requirements to /home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info/requires.txt
+[0.497s] writing top-level names to /home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info/top_level.txt
+[0.497s] writing manifest file '/home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info/SOURCES.txt'
+[0.522s] reading manifest file '/home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info/SOURCES.txt'
+[0.523s] writing manifest file '/home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info/SOURCES.txt'
+[0.524s] running build
+[0.524s] running build_py
+[0.524s] creating /home/francesc/Escritorio/ros_ws/build/camera_servcli/build
+[0.524s] creating /home/francesc/Escritorio/ros_ws/build/camera_servcli/build/lib
+[0.525s] creating /home/francesc/Escritorio/ros_ws/build/camera_servcli/build/lib/camera_servcli
+[0.525s] copying camera_servcli/__init__.py -> /home/francesc/Escritorio/ros_ws/build/camera_servcli/build/lib/camera_servcli
+[0.525s] copying camera_servcli/camera_client.py -> /home/francesc/Escritorio/ros_ws/build/camera_servcli/build/lib/camera_servcli
+[0.525s] copying camera_servcli/camera_service.py -> /home/francesc/Escritorio/ros_ws/build/camera_servcli/build/lib/camera_servcli
+[0.526s] running install
+[0.526s] running install_lib
+[0.526s] creating /home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/python3.6/site-packages/camera_servcli
+[0.526s] copying /home/francesc/Escritorio/ros_ws/build/camera_servcli/build/lib/camera_servcli/__init__.py -> /home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/python3.6/site-packages/camera_servcli
+[0.527s] copying /home/francesc/Escritorio/ros_ws/build/camera_servcli/build/lib/camera_servcli/camera_client.py -> /home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/python3.6/site-packages/camera_servcli
+[0.527s] copying /home/francesc/Escritorio/ros_ws/build/camera_servcli/build/lib/camera_servcli/camera_service.py -> /home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/python3.6/site-packages/camera_servcli
+[0.527s] byte-compiling /home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/python3.6/site-packages/camera_servcli/__init__.py to __init__.cpython-36.pyc
+[0.527s] byte-compiling /home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/python3.6/site-packages/camera_servcli/camera_client.py to camera_client.cpython-36.pyc
+[0.527s] byte-compiling /home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/python3.6/site-packages/camera_servcli/camera_service.py to camera_service.cpython-36.pyc
+[0.528s] running install_data
+[0.528s] creating /home/francesc/Escritorio/ros_ws/install/camera_servcli/share/ament_index
+[0.528s] creating /home/francesc/Escritorio/ros_ws/install/camera_servcli/share/ament_index/resource_index
+[0.528s] creating /home/francesc/Escritorio/ros_ws/install/camera_servcli/share/ament_index/resource_index/packages
+[0.528s] copying resource/camera_servcli -> /home/francesc/Escritorio/ros_ws/install/camera_servcli/share/ament_index/resource_index/packages
+[0.529s] copying package.xml -> /home/francesc/Escritorio/ros_ws/install/camera_servcli/share/camera_servcli
+[0.529s] running install_egg_info
+[0.529s] Copying /home/francesc/Escritorio/ros_ws/build/camera_servcli/camera_servcli.egg-info to /home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/python3.6/site-packages/camera_servcli-0.0.0-py3.6.egg-info
+[0.529s] running install_scripts
+[0.543s] Installing client script to /home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/camera_servcli
+[0.543s] Installing service script to /home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/camera_servcli
+[0.543s] writing list of installed files to '/home/francesc/Escritorio/ros_ws/build/camera_servcli/install.log'
+[0.560s] Invoked command in '/home/francesc/Escritorio/ros_ws/src/camera_servcli' returned '0': PYTHONPATH=/home/francesc/Escritorio/ros_ws/install/camera_servcli/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_sensors/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/python3 setup.py egg_info --egg-base /home/francesc/Escritorio/ros_ws/build/camera_servcli build --build-base /home/francesc/Escritorio/ros_ws/build/camera_servcli/build install --prefix /home/francesc/Escritorio/ros_ws/install/camera_servcli --record /home/francesc/Escritorio/ros_ws/build/camera_servcli/install.log --single-version-externally-managed

@@ -1,0 +1,5 @@
+[0.507s]   File "/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli/dome_service.py", line 39
+[0.507s]     self.check_dome_current_state(msg.sensor_status):
+[0.508s]                                                     ^
+[0.508s] SyntaxError: invalid syntax
+[0.508s] 

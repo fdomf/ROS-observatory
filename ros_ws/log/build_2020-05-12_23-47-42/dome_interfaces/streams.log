@@ -1,0 +1,227 @@
+[0.025s] Invoking command in '/home/francesc/Escritorio/ros_ws/build/dome_interfaces': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/francesc/Escritorio/ros_ws/src/dome_interfaces -DCMAKE_INSTALL_PREFIX=/home/francesc/Escritorio/ros_ws/install/dome_interfaces
+[0.104s] -- The C compiler identification is GNU 7.5.0
+[0.191s] -- The CXX compiler identification is GNU 7.5.0
+[0.199s] -- Check for working C compiler: /usr/bin/cc
+[0.315s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.315s] -- Detecting C compiler ABI info
+[0.409s] -- Detecting C compiler ABI info - done
+[0.417s] -- Detecting C compile features
+[0.736s] -- Detecting C compile features - done
+[0.741s] -- Check for working CXX compiler: /usr/bin/c++
+[0.863s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.865s] -- Detecting CXX compiler ABI info
+[0.987s] -- Detecting CXX compiler ABI info - done
+[0.996s] -- Detecting CXX compile features
+[1.504s] -- Detecting CXX compile features - done
+[1.506s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.539s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.540s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.746s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[1.859s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[1.878s] -- Found FastRTPS: /opt/ros/dashing/include  
+[1.891s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.965s] -- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[2.074s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[2.149s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[2.154s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[2.236s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.262s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[2.264s] -- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[2.301s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[2.302s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.302s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[2.302s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[2.333s] -- Found PythonExtra: .so  
+[2.453s] -- Added test 'lint_cmake' to check CMake code style
+[2.454s] -- Added test 'xmllint' to check XML markup files
+[2.458s] -- Configuring done
+[2.496s] -- Generating done
+[2.499s] -- Build files have been written to: /home/francesc/Escritorio/ros_ws/build/dome_interfaces
+[2.504s] Invoked command in '/home/francesc/Escritorio/ros_ws/build/dome_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/francesc/Escritorio/ros_ws/src/dome_interfaces -DCMAKE_INSTALL_PREFIX=/home/francesc/Escritorio/ros_ws/install/dome_interfaces
+[2.511s] Invoking command in '/home/francesc/Escritorio/ros_ws/build/dome_interfaces': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/francesc/Escritorio/ros_ws/build/dome_interfaces -- -j12 -l12
+[2.582s] [35m[1mScanning dependencies of target dome_interfaces__cpp[0m
+[2.583s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.601s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.912s] [  5%] Built target dome_interfaces__cpp
+[2.922s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_generator_c[0m
+[2.922s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.922s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.934s] [ 13%] [32mBuilding C object CMakeFiles/dome_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dome_interfaces/srv/dome__functions.c.o[0m
+[2.937s] [ 16%] [32mBuilding C object CMakeFiles/dome_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dome_interfaces/msg/action__functions.c.o[0m
+[2.985s] [ 18%] [32m[1mLinking C shared library libdome_interfaces__rosidl_generator_c.so[0m
+[3.039s] [ 18%] Built target dome_interfaces__rosidl_generator_c
+[3.058s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.219s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_introspection_cpp[0m
+[3.231s] [ 24%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dome_interfaces/msg/action__type_support.cpp.o[0m
+[3.233s] [ 27%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dome_interfaces/srv/dome__type_support.cpp.o[0m
+[3.239s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[3.257s] [ 29%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dome_interfaces/srv/dds_fastrtps/dome__type_support.cpp.o[0m
+[3.259s] [ 32%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dome_interfaces/msg/dds_fastrtps/action__type_support.cpp.o[0m
+[3.363s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_introspection_c[0m
+[3.379s] [ 35%] [32mBuilding C object CMakeFiles/dome_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dome_interfaces/msg/action__type_support.c.o[0m
+[3.381s] [ 37%] [32mBuilding C object CMakeFiles/dome_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dome_interfaces/srv/dome__type_support.c.o[0m
+[3.421s] [ 40%] [32m[1mLinking C shared library libdome_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.454s] [ 40%] Built target dome_interfaces__rosidl_typesupport_introspection_c
+[3.469s] [ 43%] [32m[1mLinking CXX shared library libdome_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.522s] [ 43%] Built target dome_interfaces__rosidl_typesupport_introspection_cpp
+[3.595s] [ 45%] [32m[1mLinking CXX shared library libdome_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.672s] [ 45%] Built target dome_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.687s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.692s] [ 51%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.964s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_cpp[0m
+[3.980s] [ 54%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dome_interfaces/msg/action__type_support.cpp.o[0m
+[3.981s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_fastrtps_c[0m
+[3.984s] [ 56%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dome_interfaces/srv/dome__type_support.cpp.o[0m
+[4.004s] [ 59%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dome_interfaces/srv/dome__type_support_c.cpp.o[0m
+[4.005s] [ 62%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dome_interfaces/msg/action__type_support_c.cpp.o[0m
+[4.294s] [ 64%] [32m[1mLinking CXX shared library libdome_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.338s] [ 67%] [32m[1mLinking CXX shared library libdome_interfaces__rosidl_typesupport_cpp.so[0m
+[4.369s] [ 67%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c
+[4.389s] [ 70%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.408s] [ 70%] Built target dome_interfaces__rosidl_typesupport_cpp
+[4.635s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_c[0m
+[4.656s] [ 72%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dome_interfaces/srv/dome__type_support.cpp.o[0m
+[4.657s] [ 75%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dome_interfaces/msg/action__type_support.cpp.o[0m
+[4.700s] [ 78%] [32m[1mLinking CXX shared library libdome_interfaces__rosidl_typesupport_c.so[0m
+[4.777s] [ 78%] Built target dome_interfaces__rosidl_typesupport_c
+[4.796s] [35m[1mScanning dependencies of target dome_interfaces[0m
+[4.814s] [ 78%] Built target dome_interfaces
+[4.831s] [35m[1mScanning dependencies of target dome_interfaces__py[0m
+[4.852s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.326s] [ 81%] Built target dome_interfaces__py
+[5.337s] [35m[1mScanning dependencies of target dome_interfaces__python[0m
+[5.366s] [ 83%] [32mBuilding C object CMakeFiles/dome_interfaces__python.dir/rosidl_generator_py/dome_interfaces/msg/_action_s.c.o[0m
+[5.366s] [ 86%] [32mBuilding C object CMakeFiles/dome_interfaces__python.dir/rosidl_generator_py/dome_interfaces/srv/_dome_s.c.o[0m
+[5.452s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/dome_interfaces/libdome_interfaces__python.so[0m
+[5.519s] [ 89%] Built target dome_interfaces__python
+[5.535s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_c__pyext[0m
+[5.538s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.553s] [ 91%] [32mBuilding C object CMakeFiles/dome_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dome_interfaces/_dome_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.562s] [ 94%] [32mBuilding C object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dome_interfaces/_dome_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.640s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dome_interfaces/dome_interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[5.653s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dome_interfaces/dome_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[5.698s] [100%] Built target dome_interfaces__rosidl_typesupport_c__pyext
+[5.710s] [100%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.728s] Invoked command in '/home/francesc/Escritorio/ros_ws/build/dome_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/francesc/Escritorio/ros_ws/build/dome_interfaces -- -j12 -l12
+[5.845s] Invoking command in '/home/francesc/Escritorio/ros_ws/build/dome_interfaces': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/francesc/Escritorio/ros_ws/build/dome_interfaces --target install -- -j12 -l12
+[5.926s] [  2%] Built target dome_interfaces__cpp
+[5.935s] [ 13%] Built target dome_interfaces__rosidl_generator_c
+[5.958s] [ 24%] Built target dome_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.961s] [ 35%] Built target dome_interfaces__rosidl_typesupport_introspection_cpp
+[5.968s] [ 45%] Built target dome_interfaces__rosidl_typesupport_introspection_c
+[5.989s] [ 56%] Built target dome_interfaces__rosidl_typesupport_cpp
+[5.993s] [ 67%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c
+[6.025s] [ 78%] Built target dome_interfaces__rosidl_typesupport_c
+[6.064s] [ 78%] Built target dome_interfaces
+[6.097s] [ 81%] Built target dome_interfaces__py
+[6.140s] [ 89%] Built target dome_interfaces__python
+[6.179s] [ 94%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.186s] [100%] Built target dome_interfaces__rosidl_typesupport_c__pyext
+[6.221s] [36mInstall the project...[0m
+[6.232s] -- Install configuration: ""
+[6.232s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/rosidl_interfaces/dome_interfaces
+[6.232s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_c.so
+[6.233s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_c.so" to ""
+[6.233s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/library_path.sh
+[6.233s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_cpp.so
+[6.234s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.234s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[6.234s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[6.234s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_fastrtps_c.h
+[6.235s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[6.235s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_fastrtps_c.h
+[6.235s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.236s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.236s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.236s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[6.236s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[6.236s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome.h
+[6.237s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__functions.h
+[6.237s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__functions.c
+[6.237s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__struct.h
+[6.237s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__type_support.h
+[6.238s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[6.238s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action.h
+[6.238s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.238s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__struct.h
+[6.239s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__functions.h
+[6.239s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__type_support.h
+[6.239s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__functions.c
+[6.239s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_generator_c.so
+[6.239s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_generator_c.so" to ""
+[6.239s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[6.240s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[6.240s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_fastrtps_cpp.hpp
+[6.240s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dds_fastrtps
+[6.240s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[6.240s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.240s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_fastrtps_cpp.hpp
+[6.241s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/dds_fastrtps
+[6.241s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.241s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.241s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[6.241s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[6.241s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__struct.hpp
+[6.241s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__traits.hpp
+[6.242s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome.hpp
+[6.242s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[6.242s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__struct.hpp
+[6.242s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action.hpp
+[6.242s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__traits.hpp
+[6.243s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[6.243s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[6.243s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__type_support.c
+[6.243s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_introspection_c.h
+[6.243s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[6.243s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_introspection_c.h
+[6.243s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.243s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__type_support.c
+[6.243s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_introspection_c.so
+[6.243s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.243s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[6.244s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[6.244s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__type_support.cpp
+[6.244s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_introspection_cpp.hpp
+[6.244s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[6.244s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__type_support.cpp
+[6.244s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_introspection_cpp.hpp
+[6.244s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.244s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.244s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/pythonpath.sh
+[6.244s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/__init__.py
+[6.286s] Compiling '/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/__init__.py'...
+[6.291s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg
+[6.291s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_action_s.c
+[6.291s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/__init__.py
+[6.292s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_action.py
+[6.292s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv
+[6.292s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/_dome.py
+[6.292s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/__init__.py
+[6.292s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/_dome_s.c
+[6.293s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/dome_interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[6.293s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/dome_interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""
+[6.293s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/dome_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[6.293s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/dome_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""
+[6.294s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__python.so
+[6.294s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__python.so" to ""
+[6.294s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/msg/Action.idl
+[6.294s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome.idl
+[6.295s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/msg/Action.msg
+[6.295s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome.srv
+[6.295s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome_Request.msg
+[6.295s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome_Response.msg
+[6.296s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/package_run_dependencies/dome_interfaces
+[6.296s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/parent_prefix_path/dome_interfaces
+[6.296s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/ament_prefix_path.sh
+[6.296s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/path.sh
+[6.296s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/local_setup.bash
+[6.297s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/local_setup.sh
+[6.297s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/local_setup.zsh
+[6.297s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/packages/dome_interfaces
+[6.297s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.297s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.297s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.298s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/dome_interfacesConfig.cmake
+[6.298s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/dome_interfacesConfig-version.cmake
+[6.298s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/package.xml
+[6.302s] Invoked command in '/home/francesc/Escritorio/ros_ws/build/dome_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/francesc/Escritorio/ros_ws/build/dome_interfaces --target install -- -j12 -l12

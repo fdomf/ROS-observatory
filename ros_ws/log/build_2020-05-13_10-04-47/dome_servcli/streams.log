@@ -1,0 +1,25 @@
+[0.294s] Invoking command in '/home/francesc/Escritorio/ros_ws/src/dome_servcli': PYTHONPATH=/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_sensors/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/python3 setup.py egg_info --egg-base /home/francesc/Escritorio/ros_ws/build/dome_servcli build --build-base /home/francesc/Escritorio/ros_ws/build/dome_servcli/build install --prefix /home/francesc/Escritorio/ros_ws/install/dome_servcli --record /home/francesc/Escritorio/ros_ws/build/dome_servcli/install.log --single-version-externally-managed
+[0.536s] running egg_info
+[0.537s] writing /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/PKG-INFO
+[0.537s] writing dependency_links to /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/dependency_links.txt
+[0.537s] writing entry points to /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/entry_points.txt
+[0.538s] writing requirements to /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/requires.txt
+[0.538s] writing top-level names to /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/top_level.txt
+[0.568s] reading manifest file '/home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/SOURCES.txt'
+[0.570s] writing manifest file '/home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/SOURCES.txt'
+[0.570s] running build
+[0.570s] running build_py
+[0.571s] copying dome_servcli/dome_service.py -> /home/francesc/Escritorio/ros_ws/build/dome_servcli/build/lib/dome_servcli
+[0.571s] running install
+[0.571s] running install_lib
+[0.571s] copying /home/francesc/Escritorio/ros_ws/build/dome_servcli/build/lib/dome_servcli/dome_service.py -> /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli
+[0.572s] byte-compiling /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli/dome_service.py to dome_service.cpython-36.pyc
+[0.572s] running install_data
+[0.573s] running install_egg_info
+[0.574s] removing '/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli-0.0.0-py3.6.egg-info' (and everything under it)
+[0.575s] Copying /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info to /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli-0.0.0-py3.6.egg-info
+[0.576s] running install_scripts
+[0.592s] Installing client script to /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/dome_servcli
+[0.593s] Installing service script to /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/dome_servcli
+[0.593s] writing list of installed files to '/home/francesc/Escritorio/ros_ws/build/dome_servcli/install.log'
+[0.614s] Invoked command in '/home/francesc/Escritorio/ros_ws/src/dome_servcli' returned '0': PYTHONPATH=/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_sensors/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/python3 setup.py egg_info --egg-base /home/francesc/Escritorio/ros_ws/build/dome_servcli build --build-base /home/francesc/Escritorio/ros_ws/build/dome_servcli/build install --prefix /home/francesc/Escritorio/ros_ws/install/dome_servcli --record /home/francesc/Escritorio/ros_ws/build/dome_servcli/install.log --single-version-externally-managed

@@ -1,0 +1,25 @@
+[0.265s] Invoking command in '/home/francesc/Escritorio/ros_ws/src/dome_servcli': AMENT_PREFIX_PATH=/home/francesc/Escritorio/ros_ws/install/dome_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/francesc/Escritorio/ros_ws/install/dome_interfaces LD_LIBRARY_PATH=/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/francesc/Escritorio/ros_ws/build/dome_servcli build --build-base /home/francesc/Escritorio/ros_ws/build/dome_servcli/build install --prefix /home/francesc/Escritorio/ros_ws/install/dome_servcli --record /home/francesc/Escritorio/ros_ws/build/dome_servcli/install.log --single-version-externally-managed
+[0.477s] running egg_info
+[0.478s] writing /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/PKG-INFO
+[0.478s] writing dependency_links to /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/dependency_links.txt
+[0.478s] writing entry points to /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/entry_points.txt
+[0.478s] writing requirements to /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/requires.txt
+[0.479s] writing top-level names to /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/top_level.txt
+[0.504s] reading manifest file '/home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/SOURCES.txt'
+[0.505s] writing manifest file '/home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/SOURCES.txt'
+[0.506s] running build
+[0.506s] running build_py
+[0.506s] copying dome_servcli/dome_client.py -> /home/francesc/Escritorio/ros_ws/build/dome_servcli/build/lib/dome_servcli
+[0.506s] running install
+[0.507s] running install_lib
+[0.507s] copying /home/francesc/Escritorio/ros_ws/build/dome_servcli/build/lib/dome_servcli/dome_client.py -> /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli
+[0.507s] byte-compiling /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli/dome_client.py to dome_client.cpython-36.pyc
+[0.507s] running install_data
+[0.508s] running install_egg_info
+[0.509s] removing '/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli-0.0.0-py3.6.egg-info' (and everything under it)
+[0.509s] Copying /home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info to /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli-0.0.0-py3.6.egg-info
+[0.510s] running install_scripts
+[0.524s] Installing client script to /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/dome_servcli
+[0.524s] Installing service script to /home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/dome_servcli
+[0.524s] writing list of installed files to '/home/francesc/Escritorio/ros_ws/build/dome_servcli/install.log'
+[0.543s] Invoked command in '/home/francesc/Escritorio/ros_ws/src/dome_servcli' returned '0': AMENT_PREFIX_PATH=/home/francesc/Escritorio/ros_ws/install/dome_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/francesc/Escritorio/ros_ws/install/dome_interfaces LD_LIBRARY_PATH=/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/francesc/Escritorio/ros_ws/build/dome_servcli build --build-base /home/francesc/Escritorio/ros_ws/build/dome_servcli/build install --prefix /home/francesc/Escritorio/ros_ws/install/dome_servcli --record /home/francesc/Escritorio/ros_ws/build/dome_servcli/install.log --single-version-externally-managed

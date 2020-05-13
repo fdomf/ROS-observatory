@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dome_interfaces/srv/Weather.srv
+// generated code does not contain a copyright notice
+
+
+module dome_interfaces {
+  module srv {
+    struct Weather_Request {
+      string weather_action;
+    };
+    typedef string string__10[10];
+    struct Weather_Response {
+      string__10 data_response;
+    };
+  };
+};

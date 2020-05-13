@@ -1,0 +1,10 @@
+{
+  "package_name": "dome_interfaces",
+  "non_idl_tuples": [
+    "/home/francesc/Escritorio/ros_ws/src/dome_interfaces:msg/Sensor.msg",
+    "/home/francesc/Escritorio/ros_ws/src/dome_interfaces:srv/Dome.srv",
+    "/home/francesc/Escritorio/ros_ws/src/dome_interfaces:srv/Weather.srv",
+    "/home/francesc/Escritorio/ros_ws/src/dome_interfaces:srv/Camera.srv",
+    "/home/francesc/Escritorio/ros_ws/src/dome_interfaces:srv/Telescope.srv"
+  ]
+}

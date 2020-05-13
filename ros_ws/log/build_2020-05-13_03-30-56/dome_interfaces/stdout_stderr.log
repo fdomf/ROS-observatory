@@ -1,0 +1,244 @@
+[0.067s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.108s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.109s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.282s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[0.342s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.404s] -- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[0.490s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[0.577s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[0.581s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[0.649s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.682s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[0.683s] -- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[0.716s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.716s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[0.716s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[0.788s] -- Added test 'lint_cmake' to check CMake code style
+[0.789s] -- Added test 'xmllint' to check XML markup files
+[0.792s] -- Configuring done
+[0.828s] -- Generating done
+[0.831s] -- Build files have been written to: /home/francesc/Escritorio/ros_ws/build/dome_interfaces
+[0.863s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.886s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.229s] [  4%] Built target dome_interfaces__cpp
+[1.242s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.243s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.305s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_generator_c[0m
+[1.320s] [ 11%] [32mBuilding C object CMakeFiles/dome_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dome_interfaces/srv/weather__functions.c.o[0m
+[1.321s] [ 15%] [32mBuilding C object CMakeFiles/dome_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dome_interfaces/msg/sensor__functions.c.o[0m
+[1.321s] [ 15%] [32mBuilding C object CMakeFiles/dome_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dome_interfaces/srv/dome__functions.c.o[0m
+[1.374s] [ 17%] [32m[1mLinking C shared library libdome_interfaces__rosidl_generator_c.so[0m
+[1.415s] [ 17%] Built target dome_interfaces__rosidl_generator_c
+[1.434s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.605s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.618s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.618s] [ 22%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dome_interfaces/srv/weather__type_support.cpp.o[0m
+[1.619s] [ 24%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dome_interfaces/srv/dome__type_support.cpp.o[0m
+[1.619s] [ 26%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dome_interfaces/msg/sensor__type_support.cpp.o[0m
+[1.641s] [ 28%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dome_interfaces/msg/dds_fastrtps/sensor__type_support.cpp.o[0m
+[1.643s] [ 31%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dome_interfaces/srv/dds_fastrtps/weather__type_support.cpp.o[0m
+[1.647s] [ 33%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dome_interfaces/srv/dds_fastrtps/dome__type_support.cpp.o[0m
+[1.785s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_introspection_c[0m
+[1.800s] [ 35%] [32mBuilding C object CMakeFiles/dome_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dome_interfaces/srv/weather__type_support.c.o[0m
+[1.803s] [ 37%] [32mBuilding C object CMakeFiles/dome_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dome_interfaces/msg/sensor__type_support.c.o[0m
+[1.805s] [ 40%] [32mBuilding C object CMakeFiles/dome_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dome_interfaces/srv/dome__type_support.c.o[0m
+[1.845s] [ 42%] [32m[1mLinking C shared library libdome_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.884s] [ 42%] Built target dome_interfaces__rosidl_typesupport_introspection_c
+[1.953s] [ 44%] [32m[1mLinking CXX shared library libdome_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.001s] [ 44%] Built target dome_interfaces__rosidl_typesupport_introspection_cpp
+[2.092s] [ 46%] [32m[1mLinking CXX shared library libdome_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.186s] [ 46%] Built target dome_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.203s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.207s] [ 51%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.500s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_cpp[0m
+[2.522s] [ 53%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dome_interfaces/srv/weather__type_support.cpp.o[0m
+[2.524s] [ 57%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dome_interfaces/srv/dome__type_support.cpp.o[0m
+[2.524s] [ 57%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dome_interfaces/msg/sensor__type_support.cpp.o[0m
+[2.554s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.573s] [ 60%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dome_interfaces/srv/weather__type_support_c.cpp.o[0m
+[2.573s] [ 62%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dome_interfaces/msg/sensor__type_support_c.cpp.o[0m
+[2.574s] [ 64%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dome_interfaces/srv/dome__type_support_c.cpp.o[0m
+[2.910s] [ 66%] [32m[1mLinking CXX shared library libdome_interfaces__rosidl_typesupport_cpp.so[0m
+[2.911s] [ 68%] [32m[1mLinking CXX shared library libdome_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.998s] [ 68%] Built target dome_interfaces__rosidl_typesupport_cpp
+[3.004s] [ 68%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c
+[3.016s] [ 71%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.308s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_c[0m
+[3.327s] [ 73%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dome_interfaces/msg/sensor__type_support.cpp.o[0m
+[3.328s] [ 75%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dome_interfaces/srv/dome__type_support.cpp.o[0m
+[3.329s] [ 77%] [32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dome_interfaces/srv/weather__type_support.cpp.o[0m
+[3.369s] [ 80%] [32m[1mLinking CXX shared library libdome_interfaces__rosidl_typesupport_c.so[0m
+[3.425s] [ 80%] Built target dome_interfaces__rosidl_typesupport_c
+[3.449s] [ 80%] Built target dome_interfaces
+[3.488s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.111s] [ 82%] Built target dome_interfaces__py
+[4.124s] [35m[1mScanning dependencies of target dome_interfaces__python[0m
+[4.152s] [ 84%] [32mBuilding C object CMakeFiles/dome_interfaces__python.dir/rosidl_generator_py/dome_interfaces/srv/_dome_s.c.o[0m
+[4.157s] [ 86%] [32mBuilding C object CMakeFiles/dome_interfaces__python.dir/rosidl_generator_py/dome_interfaces/msg/_sensor_s.c.o[0m
+[4.159s] [ 88%] [32mBuilding C object CMakeFiles/dome_interfaces__python.dir/rosidl_generator_py/dome_interfaces/srv/_weather_s.c.o[0m
+[4.242s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/dome_interfaces/libdome_interfaces__python.so[0m
+[4.307s] [ 91%] Built target dome_interfaces__python
+[4.321s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_c__pyext[0m
+[4.327s] [35m[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.338s] [ 93%] [32mBuilding C object CMakeFiles/dome_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dome_interfaces/_dome_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.350s] [ 95%] [32mBuilding C object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dome_interfaces/_dome_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.423s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dome_interfaces/dome_interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[4.447s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dome_interfaces/dome_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[4.487s] [100%] Built target dome_interfaces__rosidl_typesupport_c__pyext
+[4.503s] [100%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.728s] [  2%] Built target dome_interfaces__cpp
+[4.738s] [ 13%] Built target dome_interfaces__rosidl_generator_c
+[4.758s] [ 24%] Built target dome_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.771s] [ 35%] Built target dome_interfaces__rosidl_typesupport_introspection_cpp
+[4.776s] [ 46%] Built target dome_interfaces__rosidl_typesupport_introspection_c
+[4.793s] [ 57%] Built target dome_interfaces__rosidl_typesupport_cpp
+[4.795s] [ 68%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c
+[4.827s] [ 80%] Built target dome_interfaces__rosidl_typesupport_c
+[4.857s] [ 80%] Built target dome_interfaces
+[4.897s] [ 82%] Built target dome_interfaces__py
+[4.945s] [ 91%] Built target dome_interfaces__python
+[4.975s] [ 95%] Built target dome_interfaces__rosidl_typesupport_c__pyext
+[4.981s] [100%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.010s] [36mInstall the project...[0m
+[5.021s] -- Install configuration: ""
+[5.021s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/rosidl_interfaces/dome_interfaces
+[5.021s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_c.so
+[5.022s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_c.so" to ""
+[5.022s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/library_path.sh
+[5.022s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_cpp.so
+[5.022s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.023s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[5.023s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[5.023s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_fastrtps_c.h
+[5.023s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__rosidl_typesupport_fastrtps_c.h
+[5.024s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[5.024s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_fastrtps_c.h
+[5.024s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.025s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__rosidl_typesupport_fastrtps_c.h
+[5.025s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.025s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.026s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[5.026s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[5.026s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome.h
+[5.026s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__functions.h
+[5.027s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__functions.c
+[5.027s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__struct.h
+[5.027s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__struct.h
+[5.027s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__functions.h
+[5.028s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__type_support.h
+[5.028s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__functions.c
+[5.028s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__type_support.h
+[5.028s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather.h
+[5.029s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[5.029s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__type_support.h
+[5.029s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action.h
+[5.029s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.029s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__functions.c
+[5.030s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__struct.h
+[5.030s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__struct.h
+[5.030s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor.h
+[5.030s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__functions.h
+[5.030s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__type_support.h
+[5.030s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__functions.c
+[5.030s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__functions.h
+[5.030s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_generator_c.so
+[5.030s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_generator_c.so" to ""
+[5.031s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[5.031s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[5.031s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__rosidl_typesupport_fastrtps_cpp.hpp
+[5.031s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_fastrtps_cpp.hpp
+[5.031s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dds_fastrtps
+[5.031s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[5.031s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.031s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_fastrtps_cpp.hpp
+[5.031s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/dds_fastrtps
+[5.031s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[5.031s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.032s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.032s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[5.032s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[5.032s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__struct.hpp
+[5.032s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__traits.hpp
+[5.032s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__struct.hpp
+[5.032s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__traits.hpp
+[5.032s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome.hpp
+[5.032s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather.hpp
+[5.032s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[5.032s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__struct.hpp
+[5.033s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__struct.hpp
+[5.033s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action.hpp
+[5.033s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__traits.hpp
+[5.033s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor.hpp
+[5.033s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__traits.hpp
+[5.033s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[5.033s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[5.033s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__type_support.c
+[5.033s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_introspection_c.h
+[5.033s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__rosidl_typesupport_introspection_c.h
+[5.034s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__type_support.c
+[5.034s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[5.034s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__rosidl_typesupport_introspection_c.h
+[5.034s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_introspection_c.h
+[5.034s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.034s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__type_support.c
+[5.034s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__type_support.c
+[5.034s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_introspection_c.so
+[5.034s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.034s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[5.034s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[5.034s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__type_support.cpp
+[5.035s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_introspection_cpp.hpp
+[5.035s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__rosidl_typesupport_introspection_cpp.hpp
+[5.035s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__type_support.cpp
+[5.035s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[5.035s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__type_support.cpp
+[5.035s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__type_support.cpp
+[5.035s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_introspection_cpp.hpp
+[5.035s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__rosidl_typesupport_introspection_cpp.hpp
+[5.035s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.035s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.035s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/pythonpath.sh
+[5.035s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/__init__.py
+[5.076s] Compiling '/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/__init__.py'...
+[5.080s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg
+[5.080s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_sensor.py
+[5.080s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_action_s.c
+[5.081s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/__init__.py
+[5.081s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_action.py
+[5.081s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_sensor_s.c
+[5.082s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv
+[5.082s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/_dome.py
+[5.082s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/_weather.py
+[5.082s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/__init__.py
+[5.082s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/_weather_s.c
+[5.082s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/_dome_s.c
+[5.083s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/dome_interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[5.083s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/dome_interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""
+[5.083s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/dome_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[5.084s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/dome_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""
+[5.084s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__python.so
+[5.084s] -- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__python.so" to ""
+[5.084s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/msg/Sensor.idl
+[5.084s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome.idl
+[5.085s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Weather.idl
+[5.085s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/msg/Sensor.msg
+[5.085s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome.srv
+[5.086s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome_Request.msg
+[5.086s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome_Response.msg
+[5.086s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Weather.srv
+[5.086s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Weather_Request.msg
+[5.086s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Weather_Response.msg
+[5.086s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/package_run_dependencies/dome_interfaces
+[5.086s] -- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/parent_prefix_path/dome_interfaces
+[5.086s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/ament_prefix_path.sh
+[5.087s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/path.sh
+[5.087s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/local_setup.bash
+[5.087s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/local_setup.sh
+[5.087s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/local_setup.zsh
+[5.087s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/packages/dome_interfaces
+[5.087s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.087s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.087s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.088s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/dome_interfacesConfig.cmake
+[5.088s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/dome_interfacesConfig-version.cmake
+[5.088s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/package.xml

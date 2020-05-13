@@ -1,0 +1,13 @@
+[0.522s]   File "/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli/dome_service.py", line 69
+[0.522s]     '''
+[0.523s]         if(self.state == State.CLOSED or self.state == State.CLOSING):
+[0.523s]             kit.continuous_servo[0].throttle = 1
+[0.523s]             kit.continuous_servo[1].throttle = 1
+[0.523s]             ''''
+[0.523s]        
+[0.524s]                                                                       
+[0.524s]                                                 
+[0.524s]                                                 
+[0.524s]                ^
+[0.524s] SyntaxError: EOL while scanning string literal
+[0.525s] 

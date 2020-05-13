@@ -1,0 +1,142 @@
+[0.017s] Invoking command in '/home/francesc/Escritorio/ros_ws/build/dome_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francesc/Escritorio/ros_ws/install/dome_servcli:/home/francesc/Escritorio/ros_ws/install/dome_sensors:/opt/ros/dashing /usr/bin/cmake --build /home/francesc/Escritorio/ros_ws/build/dome_interfaces -- -j12 -l12
+[0.100s] [  2%] Built target dome_interfaces__cpp
+[0.101s] [ 13%] Built target dome_interfaces__rosidl_generator_c
+[0.134s] [ 24%] Built target dome_interfaces__rosidl_typesupport_introspection_cpp
+[0.138s] [ 35%] Built target dome_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.138s] [ 45%] Built target dome_interfaces__rosidl_typesupport_introspection_c
+[0.173s] [ 56%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c
+[0.184s] [ 67%] Built target dome_interfaces__rosidl_typesupport_cpp
+[0.210s] [ 78%] Built target dome_interfaces__rosidl_typesupport_c
+[0.239s] [ 78%] Built target dome_interfaces
+[0.273s] [ 81%] Built target dome_interfaces__py
+[0.318s] [ 89%] Built target dome_interfaces__python
+[0.357s] [ 94%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.362s] [100%] Built target dome_interfaces__rosidl_typesupport_c__pyext
+[0.378s] Invoked command in '/home/francesc/Escritorio/ros_ws/build/dome_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francesc/Escritorio/ros_ws/install/dome_servcli:/home/francesc/Escritorio/ros_ws/install/dome_sensors:/opt/ros/dashing /usr/bin/cmake --build /home/francesc/Escritorio/ros_ws/build/dome_interfaces -- -j12 -l12
+[0.513s] Invoking command in '/home/francesc/Escritorio/ros_ws/build/dome_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francesc/Escritorio/ros_ws/install/dome_servcli:/home/francesc/Escritorio/ros_ws/install/dome_sensors:/opt/ros/dashing /usr/bin/cmake --build /home/francesc/Escritorio/ros_ws/build/dome_interfaces --target install -- -j12 -l12
+[0.601s] [ 10%] Built target dome_interfaces__rosidl_generator_c
+[0.605s] [ 13%] Built target dome_interfaces__cpp
+[0.641s] [ 27%] Built target dome_interfaces__rosidl_typesupport_introspection_c
+[0.641s] [ 35%] Built target dome_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.642s] [ 45%] Built target dome_interfaces__rosidl_typesupport_introspection_cpp
+[0.680s] [ 56%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c
+[0.682s] [ 67%] Built target dome_interfaces__rosidl_typesupport_cpp
+[0.720s] [ 78%] Built target dome_interfaces__rosidl_typesupport_c
+[0.762s] [ 78%] Built target dome_interfaces
+[0.790s] [ 81%] Built target dome_interfaces__py
+[0.830s] [ 89%] Built target dome_interfaces__python
+[0.875s] [ 94%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.880s] [100%] Built target dome_interfaces__rosidl_typesupport_c__pyext
+[0.916s] [36mInstall the project...[0m
+[0.935s] -- Install configuration: ""
+[0.936s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/rosidl_interfaces/dome_interfaces
+[0.936s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_c.so
+[0.936s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/library_path.sh
+[0.936s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_cpp.so
+[0.937s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[0.937s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[0.937s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_fastrtps_c.h
+[0.938s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[0.938s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_fastrtps_c.h
+[0.938s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.938s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__rosidl_typesupport_fastrtps_c.h
+[0.939s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.939s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[0.939s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[0.940s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome.h
+[0.940s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__functions.h
+[0.941s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__functions.c
+[0.941s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__struct.h
+[0.941s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__type_support.h
+[0.941s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[0.941s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__type_support.h
+[0.942s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action.h
+[0.942s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.942s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__functions.c
+[0.942s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__struct.h
+[0.942s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__struct.h
+[0.942s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor.h
+[0.942s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__functions.h
+[0.942s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__type_support.h
+[0.942s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__functions.c
+[0.943s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__functions.h
+[0.943s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_generator_c.so
+[0.943s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[0.943s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[0.943s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_fastrtps_cpp.hpp
+[0.943s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dds_fastrtps
+[0.943s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[0.943s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.943s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_fastrtps_cpp.hpp
+[0.943s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/dds_fastrtps
+[0.944s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[0.944s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.944s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[0.944s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[0.944s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__struct.hpp
+[0.944s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__traits.hpp
+[0.944s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome.hpp
+[0.944s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[0.944s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__struct.hpp
+[0.945s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__struct.hpp
+[0.945s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action.hpp
+[0.945s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__traits.hpp
+[0.945s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor.hpp
+[0.945s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__traits.hpp
+[0.945s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[0.945s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[0.945s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__type_support.c
+[0.946s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_introspection_c.h
+[0.946s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[0.946s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__rosidl_typesupport_introspection_c.h
+[0.946s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_introspection_c.h
+[0.946s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.946s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__type_support.c
+[0.946s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__type_support.c
+[0.946s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_introspection_c.so
+[0.947s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces
+[0.947s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv
+[0.947s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__type_support.cpp
+[0.947s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_introspection_cpp.hpp
+[0.947s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg
+[0.947s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__type_support.cpp
+[0.947s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__type_support.cpp
+[0.947s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_introspection_cpp.hpp
+[0.947s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__rosidl_typesupport_introspection_cpp.hpp
+[0.948s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.948s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/pythonpath.sh
+[0.948s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/__init__.py
+[0.987s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg
+[0.987s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_sensor.py
+[0.987s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_action_s.c
+[0.988s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/__init__.py
+[0.988s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_action.py
+[0.988s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_sensor_s.c
+[0.988s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv
+[0.988s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/_dome.py
+[0.988s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/__init__.py
+[0.988s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/_dome_s.c
+[0.988s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/dome_interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[0.989s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/dome_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[0.989s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__python.so
+[0.990s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/msg/Sensor.idl
+[0.990s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome.idl
+[0.990s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/msg/Sensor.msg
+[0.991s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome.srv
+[0.991s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome_Request.msg
+[0.991s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome_Response.msg
+[0.991s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/package_run_dependencies/dome_interfaces
+[0.991s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/parent_prefix_path/dome_interfaces
+[0.991s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/ament_prefix_path.sh
+[0.992s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/path.sh
+[0.992s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/local_setup.bash
+[0.992s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/local_setup.sh
+[0.992s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/local_setup.zsh
+[0.992s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/packages/dome_interfaces
+[0.992s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.993s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.993s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.993s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/dome_interfacesConfig.cmake
+[0.993s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/dome_interfacesConfig-version.cmake
+[0.993s] -- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/package.xml
+[0.996s] Invoked command in '/home/francesc/Escritorio/ros_ws/build/dome_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/francesc/Escritorio/ros_ws/install/dome_servcli:/home/francesc/Escritorio/ros_ws/install/dome_sensors:/opt/ros/dashing /usr/bin/cmake --build /home/francesc/Escritorio/ros_ws/build/dome_interfaces --target install -- -j12 -l12

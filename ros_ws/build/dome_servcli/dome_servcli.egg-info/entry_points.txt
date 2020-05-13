@@ -1,0 +1,4 @@
+[console_scripts]
+client = dome_servcli.dome_client:main
+service = dome_servcli.dome_service:main
+

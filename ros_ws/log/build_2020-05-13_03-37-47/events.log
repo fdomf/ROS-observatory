@@ -1,0 +1,310 @@
+[0.000000] (-) TimerEvent: {}
+[0.000294] (-) JobUnselected: {'identifier': 'dome_sensors'}
+[0.001156] (-) JobUnselected: {'identifier': 'dome_servcli'}
+[0.001280] (-) JobUnselected: {'identifier': 'weather_servcli'}
+[0.001347] (dome_interfaces) JobQueued: {'identifier': 'dome_interfaces', 'dependencies': OrderedDict()}
+[0.001490] (dome_interfaces) JobStarted: {'identifier': 'dome_interfaces'}
+[0.014225] (dome_interfaces) JobProgress: {'identifier': 'dome_interfaces', 'progress': 'cmake'}
+[0.015126] (dome_interfaces) JobProgress: {'identifier': 'dome_interfaces', 'progress': 'build'}
+[0.016095] (dome_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/francesc/Escritorio/ros_ws/build/dome_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/francesc/Escritorio/ros_ws/build/dome_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'francesc'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2435'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/francesc'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '2294'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7986b5be323c592971b220985ebb0e06'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/francesc/Escritorio/ros_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'francesc'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '9:34671'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'francesc'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/home/francesc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '589f26395c9140ff8e855942255c5982'), ('SESSION_MANAGER', 'local/francesc:@/tmp/.ICE-unix/2331,unix/francesc:/tmp/.ICE-unix/2331'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a821c25c_2782_48cb_a388_4c46d45b3f3c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.407'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/francesc/Escritorio/ros_ws/install/weather_servcli:/home/francesc/Escritorio/ros_ws/install/dome_servcli:/home/francesc/Escritorio/ros_ws/install/dome_sensors:/home/francesc/Escritorio/ros_ws/install/dome_interfaces:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/francesc/Escritorio/ros_ws/build/dome_interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7986b5be323c592971b220985ebb0e06'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/home/francesc/Escritorio/ros_ws/install/weather_servcli/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_sensors/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/francesc/Escritorio/ros_ws/install/dome_interfaces:/home/francesc/Escritorio/ros_ws/install/weather_servcli:/home/francesc/Escritorio/ros_ws/install/dome_servcli:/home/francesc/Escritorio/ros_ws/install/dome_sensors:/opt/ros/dashing')]), 'shell': False}
+[0.061730] (dome_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.089495] (dome_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.089849] (dome_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099029] (-) TimerEvent: {}
+[0.199549] (-) TimerEvent: {}
+[0.285165] (dome_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)\n'}
+[0.299690] (-) TimerEvent: {}
+[0.351826] (dome_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[0.399818] (-) TimerEvent: {}
+[0.414955] (dome_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[0.499972] (-) TimerEvent: {}
+[0.511630] (dome_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[0.593712] (dome_interfaces) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[0.600106] (-) TimerEvent: {}
+[0.601118] (dome_interfaces) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[0.674300] (dome_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[0.700252] (-) TimerEvent: {}
+[0.707121] (dome_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[0.707603] (dome_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)\n'}
+[0.743313] (dome_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.743555] (dome_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[0.743711] (dome_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so\n'}
+[0.800389] (-) TimerEvent: {}
+[0.832971] (dome_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.833943] (dome_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.836868] (dome_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.873332] (dome_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.875968] (dome_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/francesc/Escritorio/ros_ws/build/dome_interfaces\n'}
+[0.900544] (-) TimerEvent: {}
+[0.910346] (dome_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.919248] (dome_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.000710] (-) TimerEvent: {}
+[1.101137] (-) TimerEvent: {}
+[1.201563] (-) TimerEvent: {}
+[1.272763] (dome_interfaces) StdoutLine: {'line': b'[  4%] Built target dome_interfaces__cpp\n'}
+[1.285202] (dome_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.287820] (dome_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.301686] (-) TimerEvent: {}
+[1.346193] (dome_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dome_interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.358140] (dome_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/dome_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dome_interfaces/msg/sensor__functions.c.o\x1b[0m\n'}
+[1.362398] (dome_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/dome_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dome_interfaces/srv/weather__functions.c.o\x1b[0m\n'}
+[1.362582] (dome_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/dome_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dome_interfaces/srv/dome__functions.c.o\x1b[0m\n'}
+[1.401782] (-) TimerEvent: {}
+[1.415259] (dome_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libdome_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.472354] (dome_interfaces) StdoutLine: {'line': b'[ 17%] Built target dome_interfaces__rosidl_generator_c\n'}
+[1.491797] (dome_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.501919] (-) TimerEvent: {}
+[1.602270] (-) TimerEvent: {}
+[1.652445] (dome_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.666614] (dome_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dome_interfaces/msg/sensor__type_support.cpp.o\x1b[0m\n'}
+[1.669245] (dome_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dome_interfaces/srv/weather__type_support.cpp.o\x1b[0m\n'}
+[1.669515] (dome_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dome_interfaces/srv/dome__type_support.cpp.o\x1b[0m\n'}
+[1.682745] (dome_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.702394] (-) TimerEvent: {}
+[1.705214] (dome_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dome_interfaces/msg/dds_fastrtps/sensor__type_support.cpp.o\x1b[0m\n'}
+[1.705917] (dome_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dome_interfaces/srv/dds_fastrtps/dome__type_support.cpp.o\x1b[0m\n'}
+[1.706594] (dome_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dome_interfaces/srv/dds_fastrtps/weather__type_support.cpp.o\x1b[0m\n'}
+[1.802494] (-) TimerEvent: {}
+[1.902875] (-) TimerEvent: {}
+[1.913405] (dome_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.926536] (dome_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/dome_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dome_interfaces/msg/sensor__type_support.c.o\x1b[0m\n'}
+[1.930345] (dome_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/dome_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dome_interfaces/srv/weather__type_support.c.o\x1b[0m\n'}
+[1.930604] (dome_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/dome_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dome_interfaces/srv/dome__type_support.c.o\x1b[0m\n'}
+[1.969199] (dome_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking C shared library libdome_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.982900] (dome_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libdome_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.003022] (-) TimerEvent: {}
+[2.012892] (dome_interfaces) StdoutLine: {'line': b'[ 44%] Built target dome_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.032235] (dome_interfaces) StdoutLine: {'line': b'[ 44%] Built target dome_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.103196] (-) TimerEvent: {}
+[2.125183] (dome_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libdome_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.203355] (-) TimerEvent: {}
+[2.214337] (dome_interfaces) StdoutLine: {'line': b'[ 46%] Built target dome_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.232816] (dome_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.233854] (dome_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.303492] (-) TimerEvent: {}
+[2.403936] (-) TimerEvent: {}
+[2.504386] (-) TimerEvent: {}
+[2.520160] (dome_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.543978] (dome_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dome_interfaces/srv/weather__type_support.cpp.o\x1b[0m\n'}
+[2.544235] (dome_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dome_interfaces/srv/dome__type_support.cpp.o\x1b[0m\n'}
+[2.544378] (dome_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dome_interfaces/msg/sensor__type_support.cpp.o\x1b[0m\n'}
+[2.604511] (-) TimerEvent: {}
+[2.605987] (dome_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.623215] (dome_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dome_interfaces/srv/weather__type_support_c.cpp.o\x1b[0m\n'}
+[2.626275] (dome_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dome_interfaces/srv/dome__type_support_c.cpp.o\x1b[0m\n'}
+[2.627456] (dome_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dome_interfaces/msg/sensor__type_support_c.cpp.o\x1b[0m\n'}
+[2.704635] (-) TimerEvent: {}
+[2.805010] (-) TimerEvent: {}
+[2.905377] (-) TimerEvent: {}
+[2.915574] (dome_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libdome_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.928845] (dome_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libdome_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.002004] (dome_interfaces) StdoutLine: {'line': b'[ 68%] Built target dome_interfaces__rosidl_typesupport_cpp\n'}
+[3.005504] (-) TimerEvent: {}
+[3.015458] (dome_interfaces) StdoutLine: {'line': b'[ 68%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.032456] (dome_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.105642] (-) TimerEvent: {}
+[3.206065] (-) TimerEvent: {}
+[3.306454] (-) TimerEvent: {}
+[3.321747] (dome_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[3.336669] (dome_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dome_interfaces/srv/dome__type_support.cpp.o\x1b[0m\n'}
+[3.337116] (dome_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dome_interfaces/msg/sensor__type_support.cpp.o\x1b[0m\n'}
+[3.339449] (dome_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/dome_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dome_interfaces/srv/weather__type_support.cpp.o\x1b[0m\n'}
+[3.372591] (dome_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libdome_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.406612] (-) TimerEvent: {}
+[3.428373] (dome_interfaces) StdoutLine: {'line': b'[ 80%] Built target dome_interfaces__rosidl_typesupport_c\n'}
+[3.457465] (dome_interfaces) StdoutLine: {'line': b'[ 80%] Built target dome_interfaces\n'}
+[3.493131] (dome_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.506745] (-) TimerEvent: {}
+[3.607162] (-) TimerEvent: {}
+[3.707591] (-) TimerEvent: {}
+[3.808034] (-) TimerEvent: {}
+[3.908436] (-) TimerEvent: {}
+[4.008889] (-) TimerEvent: {}
+[4.109303] (-) TimerEvent: {}
+[4.148683] (dome_interfaces) StdoutLine: {'line': b'[ 82%] Built target dome_interfaces__py\n'}
+[4.167712] (dome_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dome_interfaces__python\x1b[0m\n'}
+[4.193004] (dome_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/dome_interfaces__python.dir/rosidl_generator_py/dome_interfaces/srv/_dome_s.c.o\x1b[0m\n'}
+[4.193954] (dome_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/dome_interfaces__python.dir/rosidl_generator_py/dome_interfaces/msg/_sensor_s.c.o\x1b[0m\n'}
+[4.194935] (dome_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/dome_interfaces__python.dir/rosidl_generator_py/dome_interfaces/srv/_weather_s.c.o\x1b[0m\n'}
+[4.209400] (-) TimerEvent: {}
+[4.279303] (dome_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dome_interfaces/libdome_interfaces__python.so\x1b[0m\n'}
+[4.309514] (-) TimerEvent: {}
+[4.354313] (dome_interfaces) StdoutLine: {'line': b'[ 91%] Built target dome_interfaces__python\n'}
+[4.369220] (dome_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.372569] (dome_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dome_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.389824] (dome_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/dome_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dome_interfaces/_dome_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.393276] (dome_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/dome_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dome_interfaces/_dome_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.409638] (-) TimerEvent: {}
+[4.482922] (dome_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dome_interfaces/dome_interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.493311] (dome_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dome_interfaces/dome_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.509751] (-) TimerEvent: {}
+[4.540493] (dome_interfaces) StdoutLine: {'line': b'[100%] Built target dome_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.555389] (dome_interfaces) StdoutLine: {'line': b'[100%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.567566] (dome_interfaces) CommandEnded: {'returncode': 0}
+[4.610004] (-) TimerEvent: {}
+[4.651663] (dome_interfaces) JobProgress: {'identifier': 'dome_interfaces', 'progress': 'install'}
+[4.667892] (dome_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/francesc/Escritorio/ros_ws/build/dome_interfaces', '--target', 'install', '--', '-j12', '-l12'], 'cwd': '/home/francesc/Escritorio/ros_ws/build/dome_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'francesc'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2435'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/francesc'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '2294'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7986b5be323c592971b220985ebb0e06'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/francesc/Escritorio/ros_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'francesc'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '9:34671'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'francesc'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/home/francesc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '589f26395c9140ff8e855942255c5982'), ('SESSION_MANAGER', 'local/francesc:@/tmp/.ICE-unix/2331,unix/francesc:/tmp/.ICE-unix/2331'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a821c25c_2782_48cb_a388_4c46d45b3f3c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.407'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/francesc/Escritorio/ros_ws/install/weather_servcli:/home/francesc/Escritorio/ros_ws/install/dome_servcli:/home/francesc/Escritorio/ros_ws/install/dome_sensors:/home/francesc/Escritorio/ros_ws/install/dome_interfaces:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/francesc/Escritorio/ros_ws/build/dome_interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7986b5be323c592971b220985ebb0e06'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/home/francesc/Escritorio/ros_ws/install/weather_servcli/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_sensors/lib/python3.6/site-packages:/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/francesc/Escritorio/ros_ws/install/dome_interfaces:/home/francesc/Escritorio/ros_ws/install/weather_servcli:/home/francesc/Escritorio/ros_ws/install/dome_servcli:/home/francesc/Escritorio/ros_ws/install/dome_sensors:/opt/ros/dashing')]), 'shell': False}
+[4.710175] (-) TimerEvent: {}
+[4.749713] (dome_interfaces) StdoutLine: {'line': b'[  2%] Built target dome_interfaces__cpp\n'}
+[4.753953] (dome_interfaces) StdoutLine: {'line': b'[ 13%] Built target dome_interfaces__rosidl_generator_c\n'}
+[4.781204] (dome_interfaces) StdoutLine: {'line': b'[ 24%] Built target dome_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.786211] (dome_interfaces) StdoutLine: {'line': b'[ 35%] Built target dome_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.788715] (dome_interfaces) StdoutLine: {'line': b'[ 46%] Built target dome_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.810299] (-) TimerEvent: {}
+[4.828120] (dome_interfaces) StdoutLine: {'line': b'[ 57%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.829989] (dome_interfaces) StdoutLine: {'line': b'[ 68%] Built target dome_interfaces__rosidl_typesupport_cpp\n'}
+[4.868838] (dome_interfaces) StdoutLine: {'line': b'[ 80%] Built target dome_interfaces__rosidl_typesupport_c\n'}
+[4.906750] (dome_interfaces) StdoutLine: {'line': b'[ 80%] Built target dome_interfaces\n'}
+[4.910443] (-) TimerEvent: {}
+[4.942858] (dome_interfaces) StdoutLine: {'line': b'[ 82%] Built target dome_interfaces__py\n'}
+[4.985151] (dome_interfaces) StdoutLine: {'line': b'[ 91%] Built target dome_interfaces__python\n'}
+[5.010615] (-) TimerEvent: {}
+[5.022546] (dome_interfaces) StdoutLine: {'line': b'[ 95%] Built target dome_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.032217] (dome_interfaces) StdoutLine: {'line': b'[100%] Built target dome_interfaces__rosidl_typesupport_c__pyext\n'}
+[5.061335] (dome_interfaces) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[5.072450] (dome_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.072934] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/rosidl_interfaces/dome_interfaces\n'}
+[5.073280] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_c.so\n'}
+[5.073574] (dome_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[5.073786] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/library_path.sh\n'}
+[5.074278] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.074482] (dome_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[5.074749] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces\n'}
+[5.075045] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv\n'}
+[5.075431] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_fastrtps_c.h\n'}
+[5.075783] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__rosidl_typesupport_fastrtps_c.h\n'}
+[5.076154] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg\n'}
+[5.076569] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_fastrtps_c.h\n'}
+[5.076822] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.077080] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__rosidl_typesupport_fastrtps_c.h\n'}
+[5.077367] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.077841] (dome_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.078095] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces\n'}
+[5.078295] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv\n'}
+[5.078619] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome.h\n'}
+[5.078922] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__functions.h\n'}
+[5.079305] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__functions.c\n'}
+[5.079638] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__struct.h\n'}
+[5.080012] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__struct.h\n'}
+[5.080296] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__functions.h\n'}
+[5.080539] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__type_support.h\n'}
+[5.080764] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__functions.c\n'}
+[5.081104] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__type_support.h\n'}
+[5.081453] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather.h\n'}
+[5.081705] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg\n'}
+[5.081948] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__type_support.h\n'}
+[5.082148] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action.h\n'}
+[5.082432] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.082630] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__functions.c\n'}
+[5.082825] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__struct.h\n'}
+[5.083032] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__struct.h\n'}
+[5.083228] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor.h\n'}
+[5.083424] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__functions.h\n'}
+[5.083620] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__type_support.h\n'}
+[5.083815] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__functions.c\n'}
+[5.084010] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__functions.h\n'}
+[5.084204] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_generator_c.so\n'}
+[5.084398] (dome_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_generator_c.so" to ""\n'}
+[5.084593] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces\n'}
+[5.084830] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv\n'}
+[5.084952] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.085055] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.085153] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dds_fastrtps\n'}
+[5.085242] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg\n'}
+[5.085329] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.085416] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.085501] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/dds_fastrtps\n'}
+[5.085587] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.085672] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.085763] (dome_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.085847] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces\n'}
+[5.085932] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv\n'}
+[5.086015] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__struct.hpp\n'}
+[5.086101] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__traits.hpp\n'}
+[5.086186] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__struct.hpp\n'}
+[5.086272] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__traits.hpp\n'}
+[5.086357] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome.hpp\n'}
+[5.086442] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather.hpp\n'}
+[5.086526] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg\n'}
+[5.086610] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__struct.hpp\n'}
+[5.086698] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__struct.hpp\n'}
+[5.086796] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action.hpp\n'}
+[5.086883] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__traits.hpp\n'}
+[5.086967] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor.hpp\n'}
+[5.087053] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__traits.hpp\n'}
+[5.087144] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces\n'}
+[5.087229] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv\n'}
+[5.087313] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__type_support.c\n'}
+[5.087397] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_introspection_c.h\n'}
+[5.087481] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__rosidl_typesupport_introspection_c.h\n'}
+[5.087567] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__type_support.c\n'}
+[5.087661] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg\n'}
+[5.087762] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__rosidl_typesupport_introspection_c.h\n'}
+[5.087849] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_introspection_c.h\n'}
+[5.087935] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.088024] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__type_support.c\n'}
+[5.088109] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__type_support.c\n'}
+[5.088194] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.088278] (dome_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.088363] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces\n'}
+[5.088451] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv\n'}
+[5.088536] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__type_support.cpp\n'}
+[5.088642] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/dome__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.088742] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.088828] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/srv/weather__type_support.cpp\n'}
+[5.088913] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg\n'}
+[5.088999] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__type_support.cpp\n'}
+[5.089091] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__type_support.cpp\n'}
+[5.089177] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/action__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.089262] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/include/dome_interfaces/msg/sensor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.089348] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.089432] (dome_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.089522] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/pythonpath.sh\n'}
+[5.089608] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/__init__.py\n'}
+[5.110702] (-) TimerEvent: {}
+[5.126846] (dome_interfaces) StdoutLine: {'line': b"Compiling '/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/__init__.py'...\n"}
+[5.130942] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg\n'}
+[5.131132] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_sensor.py\n'}
+[5.131354] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_action_s.c\n'}
+[5.131556] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/__init__.py\n'}
+[5.131683] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_action.py\n'}
+[5.131819] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/msg/_sensor_s.c\n'}
+[5.132047] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv\n'}
+[5.132223] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/_dome.py\n'}
+[5.132391] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/_weather.py\n'}
+[5.132554] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/__init__.py\n'}
+[5.132757] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/_weather_s.c\n'}
+[5.132923] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/srv/_dome_s.c\n'}
+[5.133372] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/dome_interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[5.133822] (dome_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/dome_interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""\n'}
+[5.134167] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/dome_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[5.134670] (dome_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/python3.6/site-packages/dome_interfaces/dome_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""\n'}
+[5.134904] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__python.so\n'}
+[5.135175] (dome_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/francesc/Escritorio/ros_ws/install/dome_interfaces/lib/libdome_interfaces__python.so" to ""\n'}
+[5.135447] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/msg/Sensor.idl\n'}
+[5.135677] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome.idl\n'}
+[5.135934] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Weather.idl\n'}
+[5.136198] (dome_interfaces) StdoutLine: {'line': b'-- Installing: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/msg/Sensor.msg\n'}
+[5.136473] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome.srv\n'}
+[5.136692] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome_Request.msg\n'}
+[5.136819] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Dome_Response.msg\n'}
+[5.136947] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Weather.srv\n'}
+[5.137068] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Weather_Request.msg\n'}
+[5.137185] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/srv/Weather_Response.msg\n'}
+[5.137309] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/package_run_dependencies/dome_interfaces\n'}
+[5.137429] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/parent_prefix_path/dome_interfaces\n'}
+[5.137546] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/ament_prefix_path.sh\n'}
+[5.137665] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/environment/path.sh\n'}
+[5.137783] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/local_setup.bash\n'}
+[5.137900] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/local_setup.sh\n'}
+[5.138018] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/local_setup.zsh\n'}
+[5.138147] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/ament_index/resource_index/packages/dome_interfaces\n'}
+[5.138273] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[5.138392] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.138509] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.138627] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/dome_interfacesConfig.cmake\n'}
+[5.138744] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/cmake/dome_interfacesConfig-version.cmake\n'}
+[5.138861] (dome_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/francesc/Escritorio/ros_ws/install/dome_interfaces/share/dome_interfaces/package.xml\n'}
+[5.141117] (dome_interfaces) CommandEnded: {'returncode': 0}
+[5.160069] (dome_interfaces) JobEnded: {'identifier': 'dome_interfaces', 'rc': 0}
+[5.161621] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+/home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/PKG-INFO
+/home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/SOURCES.txt
+/home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/dependency_links.txt
+/home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/entry_points.txt
+/home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/requires.txt
+/home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/top_level.txt
+/home/francesc/Escritorio/ros_ws/build/dome_servcli/dome_servcli.egg-info/zip-safe
+dome_servcli/__init__.py
+dome_servcli/dome_client.py
+dome_servcli/dome_service.py
+resource/dome_servcli
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

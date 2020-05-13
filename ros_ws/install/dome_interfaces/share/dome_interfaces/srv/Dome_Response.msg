@@ -1,0 +1,2 @@
+
+string dome_response

@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dome_interfaces/msg/Action.msg
+// generated code does not contain a copyright notice
+
+
+module dome_interfaces {
+  module msg {
+    struct Action {
+      string action;
+    };
+  };
+};
