@@ -5,32 +5,22 @@ from rclpy.node import Node
 
 from enum import Enum
 
-'''
-import RPi.GPIO as GPIO
-import time
-GPIO.setmode(GPIO.BOARD)
-GPIO.setup(12,GPIO.IN)
-
-from adafruit_servokit import ServoKit
-kit = ServoKit(channels=16)
-
-'''
-
-
+from dome import Dome
 
 class State(Enum):
-    OPENED   = 0
-    CLOSED   = 1
-    OPENING  = 2
-    CLOSING  = 3
-    UNKNOWN  = 4
+    INIT     = 0
+    OPENED   = 1
+    CLOSED   = 2
+    OPENING  = 3
+    CLOSING  = 4
+    MOVING   = 5
 
 class DomeService(Node):
 
     def __init__(self):
         super().__init__('dome_service')
         self.srv = self.create_service(Dome, 'test', self.callback)
-        self.state = State.UNKNOWN
+        self.dome = Dome()
         
 
     def callback(self, request, response):
@@ -55,56 +45,26 @@ class DomeService(Node):
         
 
     def dome_open(self, response):
-        if(self.state == State.UNKNOWN):
-            self.dome_service_output(response, "Opening dome")
-            self.state = State.OPENING
-            opened = False
-            #while (opened == False):
-                #print("T")
-
-
-        '''
-            Todo -> activate / deactivate servos according to the sensors output
-            kit.continuous_servo[0].throttle = 1
-            kit.continuous_servo[1].throttle = 1
-        '''
-        
-        
-        
+        self.dome.open_dome()
+        self.dome_service_output(response, "Opening dome")
     
     def dome_close(self, response):
-        '''
-        if(self.state == State.OPEN or self.state == State.OPENING):
-            kit.continuous_servo[0].throttle = 1
-            kit.continuous_servo[1].throttle = 1
-        '''
-        self.state = CLOSING
+        self.dome.close_dome()
         self.dome_service_output(response, "Closing dome")
 
     def dome_status(self, response):
-        if self.state == State.OPENED:
+        if self.dome.get_dome_status() == State.OPENED:
             self.dome_service_output(response, "The dome is opened")
-        elif self.state == State.CLOSED:
+        elif self.dome.get_dome_status() == State.CLOSED:
             self.dome_service_output(response, "The dome is closed")
-        elif self.state == State.OPENING:
+        elif self.dome.get_dome_status() == State.OPENING:
             self.dome_service_output(response, "The dome is closed")
-        elif self.state == State.CLOSING:
+        elif self.dome.get_dome_status() == State.CLOSING:
             self.dome_service_output(response, "The dome is closed")
-        elif self.state == State.UNKNOWN:
-            self.dome_service_output(response, "The dome status is unknown")
+        elif self.dome.get_dome_status() == State.MOVING:
+            self.dome_service_output(response, "The dome is moving")
         else:
             self.dome_service_output(response, "STATE ERROR")
-
-    def check_dome_current_state(self, sensor_data):
-        pass
-        ''' 
-        dome_sensors_GPIO = [12,13,14,15,16,17,18,19]
-        for i, sensor in enumerate(dome_sensors_GPIO):
-            if GPIO.input(sensor) == 1 and reed_state == sensor_data[i]:
-                self.state = OPENED
-            if GPIO.input(sensor) == 0 and reed_state == sensor_data[i]:
-                self.state = CLOSED
-        '''
     
 
 
