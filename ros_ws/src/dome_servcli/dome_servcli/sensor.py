@@ -17,7 +17,9 @@ class Sensor():
         self.check_sensor_state()
 
     def check_sensor_state(self):
-        ''' code test
+
+        #test status OPENED
+        '''
         if self.name == "LLC":
             self.state = "OFF"
         elif self.name == "LLO":
@@ -35,8 +37,6 @@ class Sensor():
         elif self.name == "RUO":
             self.state = "ON"
         '''
-        
-        pass
         '''
         if GPIO.input(self.gpio) == 1 and self.reed_state == 0:
             self.state = "ON"

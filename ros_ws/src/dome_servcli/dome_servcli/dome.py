@@ -1,9 +1,9 @@
 
 
 from enum import Enum
-from wing import Wing
-from sensor import Sensor
-from motor import Motor
+from .wing import Wing
+from .sensor import Sensor
+from .dome_motor import DomeMotor
 
 
 class State(Enum):
@@ -68,10 +68,10 @@ class Dome():
 
     def create_wings(self, sensors):
         wings = ["left lower", "left upper","right lower", "right upper"]
-        wing_temp_list = [Wing("left lower", sensors[0:2], Motor("LLM", 0)),
-                          Wing("left upper", sensors[2:4], Motor("LUM", 1)),
-                          Wing("righ lower", sensors[4:6], Motor("RLM", 2)),
-                          Wing("righ upper", sensors[6:8], Motor("RUM", 3))]
+        wing_temp_list = [Wing("left lower", sensors[0:2], DomeMotor("LLM", 0)),
+                          Wing("left upper", sensors[2:4], DomeMotor("LUM", 1)),
+                          Wing("righ lower", sensors[4:6], DomeMotor("RLM", 2)),
+                          Wing("righ upper", sensors[6:8], DomeMotor("RUM", 3))]
         return wing_temp_list
 
 
@@ -82,25 +82,33 @@ class Dome():
             self.status = State.CLOSING
             self.wings[0].close_wing()
             self.wings[2].close_wing()
-            lower_wings_closed = False
+            ll_wing_closed = False
+            rl_wing_closed = False
 
-            while not lower_wings_closed:
-                if self.wings[0].get_status() == "CLOSED" and self.wings[2].get_status() == "CLOSED":
+            while not ll_wing_closed and not rl_wing_closed:
+                if self.wings[0].get_status() == "CLOSED":
                     self.wings[0].stop_wing()
+                    ll_wing_closed = True
+
+                if self.wings[2].get_status() == "CLOSED":
                     self.wings[2].stop_wing()
-                    lower_wings_closed = True
+                    rl_wing_closed = True
 
             print("Lower wings closed.")
 
             self.wings[1].close_wing()
             self.wings[3].close_wing()
-            upper_wings_closed = False
+            lu_wing_closed = False
+            ru_wing_closed = False
 
-            while not upper_wings_closed:
-                if self.wings[1].get_status() == "CLOSED" and self.wings[3].get_status() == "CLOSED":
+            while not lu_wing_closed and not ru_wing_closed:
+                if self.wings[1].get_status() == "CLOSED":
                     self.wings[1].stop_wing()
+                    lu_wing_closed = True
+
+                if self.wings[3].get_status() == "CLOSED":
                     self.wings[3].stop_wing()
-                    upper_wings_closed = True
+                    ru_wing_closed = True
 
             print("Upper wings closed.")
             self.status = State.CLOSED
@@ -112,25 +120,34 @@ class Dome():
         self.check_dome_status()
         if self.status == State.CLOSED:
 
-
             self.status = State.OPENING
             self.wings[0].open_wing()
             self.wings[2].open_wing()
-            lower_wings_opened = False
+            ll_wing_opened = False
+            rl_wing_opened = False
 
-            while not lower_wings_opened:
-                if self.wings[0].get_status() == "OPENED" and self.wings[2].get_status() == "OPENED":
-                    lower_wings_opened = True
+            while not ll_wing_opened and not rl_wing_opened:
+                if self.wings[0].get_status() == "OPENED":
+                    self.wings[0].stop_wing()
+                    ll_wing_opened = True
+                if self.wings[2].get_status() == "OPENED":
+                    self.wings[2].stop_wing()
+                    rl_wing_opened = True
 
             print("Lower wings opened.")
 
-            self.wings[1].close_wing()
-            self.wings[3].close_wing()
-            upper_wings_opened = False
+            self.wings[1].open_wing()
+            self.wings[3].open_wing()
+            lu_wing_opened = False
+            ru_wing_opened = False
 
-            while not upper_wings_opened:
-                if self.wings[1].get_status() == "OPENED" and self.wings[3].get_status() == "OPENED":
-                    upper_wings_opened = True
+            while not lu_wing_opened and not ru_wing_opened:
+                if self.wings[1].get_status() == "OPENED":
+                    self.wings[1].stop_wing()
+                    lu_wing_opened = True
+                if self.wings[3].get_status() == "OPENED":
+                    self.wings[3].stop_wing()
+                    ru_wing_opened = True
 
             print("Upper wings opened.")
             self.status = State.OPENED
@@ -138,13 +155,13 @@ class Dome():
         else:
             print("The dome is already opened or moving.")
 
-
+'''
 def main():
 
     
     dome = Dome()
     print(dome.get_dome_status())
-    dome.close_dome()
+    dome.open_dome()
     
 
   
@@ -153,4 +170,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-
+'''

@@ -4,8 +4,7 @@ import rclpy
 from rclpy.node import Node
 
 from enum import Enum
-
-from dome import Dome
+from .dome import Dome as DomeClass
 
 class State(Enum):
     INIT     = 0
@@ -20,7 +19,7 @@ class DomeService(Node):
     def __init__(self):
         super().__init__('dome_service')
         self.srv = self.create_service(Dome, 'test', self.callback)
-        self.dome = Dome()
+        self.dome = DomeClass()
         
 
     def callback(self, request, response):
@@ -53,25 +52,26 @@ class DomeService(Node):
         self.dome_service_output(response, "Closing dome")
 
     def dome_status(self, response):
-        if self.dome.get_dome_status() == State.OPENED:
+        if self.dome.get_dome_status().name == State.OPENED.name:
             self.dome_service_output(response, "The dome is opened")
-        elif self.dome.get_dome_status() == State.CLOSED:
+        elif self.dome.get_dome_status().name == State.CLOSED.name:
             self.dome_service_output(response, "The dome is closed")
-        elif self.dome.get_dome_status() == State.OPENING:
+        elif self.dome.get_dome_status().name == State.OPENING.name:
             self.dome_service_output(response, "The dome is closed")
-        elif self.dome.get_dome_status() == State.CLOSING:
+        elif self.dome.get_dome_status().name == State.CLOSING.name:
             self.dome_service_output(response, "The dome is closed")
-        elif self.dome.get_dome_status() == State.MOVING:
+        elif self.dome.get_dome_status().name == State.MOVING.name:
             self.dome_service_output(response, "The dome is moving")
         else:
             self.dome_service_output(response, "STATE ERROR")
-    
+
 
 
 def main(args=None):
     rclpy.init(args=args)
 
     dome_service = DomeService()
+
 
     rclpy.spin(dome_service)
 
@@ -80,3 +80,5 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
+

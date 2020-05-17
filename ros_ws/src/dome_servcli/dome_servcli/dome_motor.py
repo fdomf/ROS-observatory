@@ -3,7 +3,7 @@
 #from adafruit_servokit import ServoKit
 #kit = ServoKit(channels=16)
 
-class Motor():
+class DomeMotor():
     def __init__(self, name, identifier):
         self.name = name
         self.kit_id = identifier
