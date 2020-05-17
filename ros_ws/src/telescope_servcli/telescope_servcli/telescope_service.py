@@ -3,6 +3,7 @@ from dome_interfaces.srv import Telescope
 import rclpy
 from rclpy.node import Node
 
+from .telescope import Telescope as TelescopeClass
 
 class TelescopeService(Node):
 
@@ -11,6 +12,7 @@ class TelescopeService(Node):
         self.srv = self.create_service(Telescope, 'telescope_positioning', self.callback)
         self.alt = 0.0
         self.az = 0.0
+        self.telescope = TelescopeClass()
 
     def callback(self, request, response):
         self.telescope_action(request, response)
@@ -30,6 +32,8 @@ class TelescopeService(Node):
         '''
         Todo: telescope fucntions to control the 360º servo base with the magnetometer and the telescope 90ºmax with a 180º (modified) servo
         '''
+        self.telescope.set_coordinates(self.alt, self.az)
+        self.telescope.point_telescope()
         self.telescope_service_output(response, "Telescope pointed at Altitude: %f Azimuth: %f"% (self.alt, self.az))
     
     def telescope_service_output(self, response, msg):
