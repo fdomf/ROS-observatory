@@ -1,6 +1,6 @@
 import sys
 
-from dome_interfaces.srv import Dome
+from observatory_interfaces.srv import Dome
 import rclpy
 from rclpy.node import Node
 

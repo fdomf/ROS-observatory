@@ -1,6 +1,6 @@
 import sys
 
-from dome_interfaces.srv import Telescope
+from observatory_interfaces.srv import Telescope
 import rclpy
 from rclpy.node import Node
 

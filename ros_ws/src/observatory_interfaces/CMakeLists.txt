@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(dome_interfaces)
+project(observatory_interfaces)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -34,11 +34,10 @@ if(BUILD_TESTING)
 endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Sensor.msg"
   "srv/Dome.srv"
   "srv/Weather.srv"
   "srv/Camera.srv"
   "srv/Telescope.srv"
- )
+)
 
 ament_package()

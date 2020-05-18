@@ -1,6 +1,6 @@
 import sys
 
-from dome_interfaces.srv import Weather
+from observatory_interfaces.srv import Weather
 import rclpy
 from rclpy.node import Node
 
