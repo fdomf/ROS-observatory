@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from observatory_interfaces/srv/Dome.srv
+// generated code does not contain a copyright notice
+
+
+module observatory_interfaces {
+  module srv {
+    struct Dome_Request {
+      string dome_action;
+    };
+    struct Dome_Response {
+      string dome_response;
+    };
+  };
+};

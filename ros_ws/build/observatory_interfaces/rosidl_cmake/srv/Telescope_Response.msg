@@ -1,0 +1,2 @@
+
+string telescope_response

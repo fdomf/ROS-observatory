@@ -1,0 +1,41 @@
+[1.038s] Invoking command in '/home/francesc/Escritorio/ROS-observatory/ros_ws/src/weather_servcli': PYTHONPATH=/home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli build --build-base /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/build install --prefix /home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli --record /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/install.log --single-version-externally-managed
+[1.284s] running egg_info
+[1.285s] creating /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/weather_servcli.egg-info
+[1.285s] writing /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/weather_servcli.egg-info/PKG-INFO
+[1.285s] writing dependency_links to /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/weather_servcli.egg-info/dependency_links.txt
+[1.285s] writing entry points to /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/weather_servcli.egg-info/entry_points.txt
+[1.286s] writing requirements to /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/weather_servcli.egg-info/requires.txt
+[1.286s] writing top-level names to /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/weather_servcli.egg-info/top_level.txt
+[1.286s] writing manifest file '/home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/weather_servcli.egg-info/SOURCES.txt'
+[1.325s] reading manifest file '/home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/weather_servcli.egg-info/SOURCES.txt'
+[1.326s] writing manifest file '/home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/weather_servcli.egg-info/SOURCES.txt'
+[1.326s] running build
+[1.327s] running build_py
+[1.327s] creating /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/build
+[1.327s] creating /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/build/lib
+[1.327s] creating /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/build/lib/weather_servcli
+[1.327s] copying weather_servcli/weather_service.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/build/lib/weather_servcli
+[1.327s] copying weather_servcli/__init__.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/build/lib/weather_servcli
+[1.328s] copying weather_servcli/weather_client.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/build/lib/weather_servcli
+[1.328s] running install
+[1.328s] running install_lib
+[1.328s] creating /home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli/lib/python3.6/site-packages/weather_servcli
+[1.328s] copying /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/build/lib/weather_servcli/weather_service.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli/lib/python3.6/site-packages/weather_servcli
+[1.329s] copying /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/build/lib/weather_servcli/__init__.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli/lib/python3.6/site-packages/weather_servcli
+[1.329s] copying /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/build/lib/weather_servcli/weather_client.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli/lib/python3.6/site-packages/weather_servcli
+[1.329s] byte-compiling /home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli/lib/python3.6/site-packages/weather_servcli/weather_service.py to weather_service.cpython-36.pyc
+[1.329s] byte-compiling /home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli/lib/python3.6/site-packages/weather_servcli/__init__.py to __init__.cpython-36.pyc
+[1.330s] byte-compiling /home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli/lib/python3.6/site-packages/weather_servcli/weather_client.py to weather_client.cpython-36.pyc
+[1.330s] running install_data
+[1.330s] creating /home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli/share/ament_index
+[1.331s] creating /home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli/share/ament_index/resource_index
+[1.331s] creating /home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli/share/ament_index/resource_index/packages
+[1.331s] copying resource/weather_servcli -> /home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli/share/ament_index/resource_index/packages
+[1.331s] copying package.xml -> /home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli/share/weather_servcli
+[1.331s] running install_egg_info
+[1.332s] Copying /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/weather_servcli.egg-info to /home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli/lib/python3.6/site-packages/weather_servcli-0.0.0-py3.6.egg-info
+[1.333s] running install_scripts
+[1.355s] Installing client script to /home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli/lib/weather_servcli
+[1.356s] Installing service script to /home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli/lib/weather_servcli
+[1.356s] writing list of installed files to '/home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/install.log'
+[1.403s] Invoked command in '/home/francesc/Escritorio/ROS-observatory/ros_ws/src/weather_servcli' returned '0': PYTHONPATH=/home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli build --build-base /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/build install --prefix /home/francesc/Escritorio/ROS-observatory/ros_ws/install/weather_servcli --record /home/francesc/Escritorio/ROS-observatory/ros_ws/build/weather_servcli/install.log --single-version-externally-managed

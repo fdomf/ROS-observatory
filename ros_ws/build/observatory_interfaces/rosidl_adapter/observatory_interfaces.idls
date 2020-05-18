@@ -1,0 +1,4 @@
+/home/francesc/Escritorio/ROS-observatory/ros_ws/build/observatory_interfaces/rosidl_adapter/observatory_interfaces:srv/Dome.idl
+/home/francesc/Escritorio/ROS-observatory/ros_ws/build/observatory_interfaces/rosidl_adapter/observatory_interfaces:srv/Weather.idl
+/home/francesc/Escritorio/ROS-observatory/ros_ws/build/observatory_interfaces/rosidl_adapter/observatory_interfaces:srv/Camera.idl
+/home/francesc/Escritorio/ROS-observatory/ros_ws/build/observatory_interfaces/rosidl_adapter/observatory_interfaces:srv/Telescope.idl

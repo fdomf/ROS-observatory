@@ -1,0 +1,51 @@
+[1.292s] running egg_info
+[1.293s] creating /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/dome_servcli.egg-info
+[1.293s] writing /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/dome_servcli.egg-info/PKG-INFO
+[1.294s] writing dependency_links to /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/dome_servcli.egg-info/dependency_links.txt
+[1.295s] writing entry points to /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/dome_servcli.egg-info/entry_points.txt
+[1.295s] writing requirements to /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/dome_servcli.egg-info/requires.txt
+[1.295s] writing top-level names to /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/dome_servcli.egg-info/top_level.txt
+[1.296s] writing manifest file '/home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/dome_servcli.egg-info/SOURCES.txt'
+[1.328s] reading manifest file '/home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/dome_servcli.egg-info/SOURCES.txt'
+[1.330s] writing manifest file '/home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/dome_servcli.egg-info/SOURCES.txt'
+[1.330s] running build
+[1.330s] running build_py
+[1.331s] creating /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/build
+[1.331s] creating /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/build/lib
+[1.332s] creating /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/build/lib/dome_servcli
+[1.332s] copying dome_servcli/dome_motor.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/build/lib/dome_servcli
+[1.333s] copying dome_servcli/__init__.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/build/lib/dome_servcli
+[1.335s] copying dome_servcli/dome.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/build/lib/dome_servcli
+[1.335s] copying dome_servcli/sensor.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/build/lib/dome_servcli
+[1.335s] copying dome_servcli/dome_service.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/build/lib/dome_servcli
+[1.335s] copying dome_servcli/wing.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/build/lib/dome_servcli
+[1.335s] copying dome_servcli/dome_client.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/build/lib/dome_servcli
+[1.336s] running install
+[1.337s] running install_lib
+[1.339s] creating /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli
+[1.339s] copying /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/build/lib/dome_servcli/dome_motor.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli
+[1.340s] copying /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/build/lib/dome_servcli/__init__.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli
+[1.340s] copying /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/build/lib/dome_servcli/dome.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli
+[1.340s] copying /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/build/lib/dome_servcli/sensor.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli
+[1.340s] copying /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/build/lib/dome_servcli/dome_service.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli
+[1.341s] copying /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/build/lib/dome_servcli/wing.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli
+[1.341s] copying /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/build/lib/dome_servcli/dome_client.py -> /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli
+[1.341s] byte-compiling /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli/dome_motor.py to dome_motor.cpython-36.pyc
+[1.341s] byte-compiling /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli/__init__.py to __init__.cpython-36.pyc
+[1.341s] byte-compiling /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli/dome.py to dome.cpython-36.pyc
+[1.343s] byte-compiling /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli/sensor.py to sensor.cpython-36.pyc
+[1.343s] byte-compiling /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli/dome_service.py to dome_service.cpython-36.pyc
+[1.343s] byte-compiling /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli/wing.py to wing.cpython-36.pyc
+[1.343s] byte-compiling /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli/dome_client.py to dome_client.cpython-36.pyc
+[1.344s] running install_data
+[1.344s] creating /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/share/ament_index
+[1.344s] creating /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/share/ament_index/resource_index
+[1.344s] creating /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/share/ament_index/resource_index/packages
+[1.344s] copying resource/dome_servcli -> /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/share/ament_index/resource_index/packages
+[1.344s] copying package.xml -> /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/share/dome_servcli
+[1.345s] running install_egg_info
+[1.345s] Copying /home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/dome_servcli.egg-info to /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli-0.0.0-py3.6.egg-info
+[1.345s] running install_scripts
+[1.361s] Installing client script to /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/dome_servcli
+[1.362s] Installing service script to /home/francesc/Escritorio/ROS-observatory/ros_ws/install/dome_servcli/lib/dome_servcli
+[1.362s] writing list of installed files to '/home/francesc/Escritorio/ROS-observatory/ros_ws/build/dome_servcli/install.log'

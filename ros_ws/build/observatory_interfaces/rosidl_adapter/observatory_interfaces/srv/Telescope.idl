@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from observatory_interfaces/srv/Telescope.srv
+// generated code does not contain a copyright notice
+
+
+module observatory_interfaces {
+  module srv {
+    struct Telescope_Request {
+      string telescope_action;
+
+      double alt;
+
+      double az;
+    };
+    struct Telescope_Response {
+      string telescope_response;
+    };
+  };
+};

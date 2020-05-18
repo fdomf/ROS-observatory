@@ -1,0 +1,3 @@
+string telescope_action
+float64 alt
+float64 az
