@@ -1,4 +1,0 @@
-[console_scripts]
-client = weather_servcli.weather_client:main
-service = weather_servcli.weather_service:main
-

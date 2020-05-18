@@ -1,5 +1,0 @@
-[0.507s]   File "/home/francesc/Escritorio/ros_ws/install/dome_sensors/lib/python3.6/site-packages/dome_sensors/dome_sensor_publisher.py", line 17
-[0.507s]     msg[] = int()
-[0.507s]         ^
-[0.507s] SyntaxError: invalid syntax
-[0.507s] 

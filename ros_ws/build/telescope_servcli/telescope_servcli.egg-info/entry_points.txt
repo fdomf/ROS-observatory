@@ -1,4 +1,0 @@
-[console_scripts]
-client = telescope_servcli.telescope_client:main
-service = telescope_servcli.telescope_service:main
-

@@ -1,4 +1,0 @@
-[0.017s] Invoking command in '/home/francesc/Escritorio/ros_ws/build/dome_interfaces': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/francesc/Escritorio/ros_ws/build/dome_interfaces -- -j12 -l12
-[4.106s] Invoked command in '/home/francesc/Escritorio/ros_ws/build/dome_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/francesc/Escritorio/ros_ws/build/dome_interfaces -- -j12 -l12
-[4.217s] Invoking command in '/home/francesc/Escritorio/ros_ws/build/dome_interfaces': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/francesc/Escritorio/ros_ws/build/dome_interfaces --target install -- -j12 -l12
-[4.667s] Invoked command in '/home/francesc/Escritorio/ros_ws/build/dome_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/francesc/Escritorio/ros_ws/build/dome_interfaces --target install -- -j12 -l12

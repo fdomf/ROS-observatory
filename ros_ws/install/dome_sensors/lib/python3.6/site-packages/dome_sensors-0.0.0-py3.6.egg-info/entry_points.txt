@@ -1,3 +1,0 @@
-[console_scripts]
-talker = dome_sensors.dome_sensor_publisher:main
-

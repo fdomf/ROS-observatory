@@ -1,5 +1,0 @@
-[0.502s]   File "/home/francesc/Escritorio/ros_ws/install/dome_servcli/lib/python3.6/site-packages/dome_servcli/dome_service.py", line 82
-[0.503s]     if self.state = State.OPENED:
-[0.503s]                   ^
-[0.503s] SyntaxError: invalid syntax
-[0.503s] 
