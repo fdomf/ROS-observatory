@@ -29,9 +29,6 @@ class TelescopeService(Node):
             self.telescope_service_output(response, "Invalid telescope action")
 
     def telescope_goto(self, response):
-        '''
-        Todo: telescope fucntions to control the 360º servo base with the magnetometer and the telescope 90ºmax with a 180º (modified) servo
-        '''
         self.telescope.set_coordinates(self.alt, self.az)
         self.telescope.point_telescope()
         self.telescope_service_output(response, "Telescope pointed at Altitude: %f Azimuth: %f"% (self.alt, self.az))

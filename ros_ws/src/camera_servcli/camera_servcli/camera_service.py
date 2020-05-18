@@ -9,7 +9,7 @@ class CameraService(Node):
 
     def __init__(self):
         super().__init__('camera_service')
-        self.srv = self.create_service(Camera, 'photo_feed', self.callback)
+        self.srv = self.create_service(Camera, 'camera_feed', self.callback)
         self.camera = CameraWebService() 
 
     def callback(self, request, response):
@@ -20,7 +20,6 @@ class CameraService(Node):
 
     def camera_action(self, request, response):
         if(request.camera_action == "take_image"):
-            print("SS")
             response.camera_response = "Taking picture..."
         elif(request.camera_action == "analyze_image"):
             tags, objects = self.camera.analyze_image_pipeline(request.file_name)

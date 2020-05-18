@@ -18,7 +18,7 @@ class DomeService(Node):
 
     def __init__(self):
         super().__init__('dome_service')
-        self.srv = self.create_service(Dome, 'test', self.callback)
+        self.srv = self.create_service(Dome, 'dome_feed', self.callback)
         self.dome = DomeClass()
         
 
