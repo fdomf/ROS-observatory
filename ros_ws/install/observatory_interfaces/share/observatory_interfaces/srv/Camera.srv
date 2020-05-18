@@ -1,6 +1,0 @@
-string camera_action
-string file_name
----
-string camera_response
-string image_tags
-string image_objects

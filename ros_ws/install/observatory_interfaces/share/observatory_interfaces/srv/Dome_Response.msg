@@ -1,2 +1,0 @@
-
-string dome_response

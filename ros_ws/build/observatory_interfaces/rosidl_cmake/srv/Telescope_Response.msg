@@ -1,2 +1,0 @@
-
-string telescope_response

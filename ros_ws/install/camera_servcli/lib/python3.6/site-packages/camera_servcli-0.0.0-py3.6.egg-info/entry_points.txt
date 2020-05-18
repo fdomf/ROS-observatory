@@ -1,4 +1,0 @@
-[console_scripts]
-client = camera_servcli.camera_client:main
-service = camera_servcli.camera_service:main
-

@@ -1,9 +1,0 @@
-{
-  "package_name": "observatory_interfaces",
-  "non_idl_tuples": [
-    "/home/francesc/Escritorio/ROS-observatory/ros_ws/src/observatory_interfaces:srv/Dome.srv",
-    "/home/francesc/Escritorio/ROS-observatory/ros_ws/src/observatory_interfaces:srv/Weather.srv",
-    "/home/francesc/Escritorio/ROS-observatory/ros_ws/src/observatory_interfaces:srv/Camera.srv",
-    "/home/francesc/Escritorio/ROS-observatory/ros_ws/src/observatory_interfaces:srv/Telescope.srv"
-  ]
-}
