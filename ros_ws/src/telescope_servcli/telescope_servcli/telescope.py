@@ -1,11 +1,13 @@
 
 from .telescope_motors import TelescopeAltMotor, TelescopeAzMotor
 
+
 class Telescope():
     def __init__ (self):
         self.altitude = 0.0
         self.azimtuh = 0.0
         self.motors = [TelescopeAltMotor("AltitudeMotor", 12), TelescopeAzMotor("AzimuthMotor", 13)]
+
 
 
     def set_coordinates(self, altitude, azimuth):
