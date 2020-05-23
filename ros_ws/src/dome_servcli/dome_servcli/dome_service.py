@@ -44,12 +44,19 @@ class DomeService(Node):
         
 
     def dome_open(self, response):
-        self.dome.open_dome()
-        self.dome_service_output(response, "Opening dome")
+        if self.dome.get_dome_status().name == State.CLOSED.name:
+            self.dome.open_dome()
+            self.dome_service_output(response, "Opening dome")
+        else:
+            self.dome_service_output(response, "Dome already opened or moving.")
     
     def dome_close(self, response):
-        self.dome.close_dome()
-        self.dome_service_output(response, "Closing dome")
+        if self.dome.get_dome_status().name == State.OPENED.name:
+            self.dome.close_dome()
+            self.dome_service_output(response, "Closing dome")
+        else:
+            self.dome_service_output(response, "Dome already closed or moving.")
+        
 
     def dome_status(self, response):
         if self.dome.get_dome_status().name == State.OPENED.name:

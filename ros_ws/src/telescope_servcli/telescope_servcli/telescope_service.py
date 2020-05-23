@@ -31,7 +31,7 @@ class TelescopeService(Node):
     def telescope_goto(self, response):
         self.telescope.set_coordinates(self.alt, self.az)
         self.telescope.point_telescope()
-        self.telescope_service_output(response, "Telescope pointed at Altitude: %f Azimuth: %f"% (self.alt, self.az))
+        self.telescope_service_output(response, "Pointing telescope at Altitude: %f Azimuth: %f"% (self.alt, self.az))
     
     def telescope_service_output(self, response, msg):
         response.telescope_response = msg
