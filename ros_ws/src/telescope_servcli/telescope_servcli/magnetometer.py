@@ -22,4 +22,3 @@ class Magnetometer():
 
     def print_heading(self):
         print("Heading: {:.2f} degrees", format(self.get_heading()))
-        time.sleep(0.2)
