@@ -60,7 +60,7 @@ class Dome():
         return self.status
 
     def create_sensors(self):
-        sensors = {"LLC": 12, "LLO": 13, "LUC": 14, "LUO": 15, "RLC": 16, "RLO": 17, "RUC": 18, "RUO": 19}
+        sensors = {"LLC": 23, "LLO": 24, "LUC": 6, "LUO": 13, "RLC": 19, "RLO": 26, "RUC": 16, "RUO": 20}
         sensor_temp_list = []
         for name, gpio in sensors.items():
             sensor_temp_list.append(Sensor(name, gpio))

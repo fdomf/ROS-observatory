@@ -1,7 +1,7 @@
 
 
-#from adafruit_servokit import ServoKit
-#kit = ServoKit(channels=16)
+from adafruit_servokit import ServoKit
+kit = ServoKit(channels=16)
 
 class DomeMotor():
     def __init__(self, name, identifier):
@@ -9,11 +9,8 @@ class DomeMotor():
         self.kit_id = identifier
 
     def open(self):
-        pass
-        #kit.continuous_servo[kit_id].throttle = 1
+        kit.continuous_servo[self.kit_id].throttle = 0.5
     def close(self):
-        pass
-        #kit.continuous_servo[kit_id].throttle = -1
+        kit.continuous_servo[self.kit_id].throttle = -0.5
     def stop(self):
-        pass
-        #kit.continuous_servo[kit_id].throttle = 0
+        kit.continuous_servo[self.kit_id].throttle = 0
