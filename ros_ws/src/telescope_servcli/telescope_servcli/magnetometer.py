@@ -1,10 +1,10 @@
 import time
-'''
+
 from math import atan2, degrees
 import board
 import busio
 import adafruit_lsm303dlh_mag
-'''
+
 class Magnetometer():
     def __init__(self):
         self.i2c = busio.I2C(board.SCL, board.SDA)

@@ -39,8 +39,8 @@ class CameraWebService():
         data = {
                 'request-json': json.dumps({"publicly_visible": "y", "allow_modifications": "d", "session": self.session, "allow_commercial_use": "d"}),
         }
-        f = open('/home/francesc/Escritorio/ros_ws/src/camera_servcli/camera_servcli/file_name.png', 'rb')
-        files = {'file': ('/home/francesc/Escritorio/ros_ws/src/camera_servcli/camera_servcli/file_name.png', f)}
+        f = open('/home/ubuntu/ROS-observatory/ros_ws/src/camera_servcli/camera_servcli/file_name.png', 'rb')
+        files = {'file': ('/home/ubuntu/ROS-observatory/ros_ws/src/camera_servcli/camera_servcli/file_name.png', f)}
         subid = self.response_get(
             self.send_file_request("api/upload", data, files), ["subid"])
         return subid
@@ -74,7 +74,7 @@ class CameraWebService():
         url = "http://nova.astrometry.net/annotated_display/"+ str(jobid)
         response = requests.get(url)
         if response.status_code == 200:
-            with open("/home/francesc/Escritorio/ROS-observatory/ros_ws/src/camera_servcli/camera_servcli/" + str(image_name) + ".jpeg", 'wb') as f:
+            with open("/home/ubuntu/ROS-observatory/ros_ws/src/camera_servcli/camera_servcli/" + str(image_name) + ".jpeg", 'wb') as f:
                 f.write(response.content)
     def analyze_image_pipeline(self, file_name):
         subid = self.upload_image(file_name + ".png")
