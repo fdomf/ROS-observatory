@@ -73,7 +73,7 @@ class TelescopeAzMotor(TelescopeMotor):
         
         
 
-
+'''
 def main():
     tele = TelescopeAzMotor("a", 15)
     tele.rotate(359)
@@ -81,3 +81,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+'''
