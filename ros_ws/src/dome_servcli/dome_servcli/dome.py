@@ -120,6 +120,21 @@ class Dome():
         self.check_dome_status()
         if self.status == State.CLOSED:
 
+            self.wings[1].open_wing()
+            self.wings[3].open_wing()
+            lu_wing_opened = False
+            ru_wing_opened = False
+
+            while not lu_wing_opened and not ru_wing_opened:
+                if self.wings[1].get_status() == "OPENED":
+                    self.wings[1].stop_wing()
+                    lu_wing_opened = True
+                if self.wings[3].get_status() == "OPENED":
+                    self.wings[3].stop_wing()
+                    ru_wing_opened = True
+
+            print("Upper wings opened.")
+            
             self.status = State.OPENING
             self.wings[0].open_wing()
             self.wings[2].open_wing()
@@ -135,21 +150,6 @@ class Dome():
                     rl_wing_opened = True
 
             print("Lower wings opened.")
-
-            self.wings[1].open_wing()
-            self.wings[3].open_wing()
-            lu_wing_opened = False
-            ru_wing_opened = False
-
-            while not lu_wing_opened and not ru_wing_opened:
-                if self.wings[1].get_status() == "OPENED":
-                    self.wings[1].stop_wing()
-                    lu_wing_opened = True
-                if self.wings[3].get_status() == "OPENED":
-                    self.wings[3].stop_wing()
-                    ru_wing_opened = True
-
-            print("Upper wings opened.")
             self.status = State.OPENED
 
         else:
