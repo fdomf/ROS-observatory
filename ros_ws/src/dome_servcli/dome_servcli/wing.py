@@ -17,9 +17,9 @@ class Wing():
         return self.state
     
     def check_wing_status(self):
-        if self.sensors[0].state == "CCLOSED" and self.sensors[1].state == "COPEN":
+        if self.sensors[0].get_sensor_state() == "CCLOSED" and self.sensors[1].get_sensor_state() == "COPEN":
             self.state = "CLOSED"
-        elif self.sensors[0].state == "COPEN" and self.sensors[1].state == "CCLOSED":
+        elif self.sensors[0].get_sensor_state() == "COPEN" and self.sensors[1].get_sensor_state() == "CCLOSED":
             self.state = "OPENED"
         else:
             self.state = "MOVING"

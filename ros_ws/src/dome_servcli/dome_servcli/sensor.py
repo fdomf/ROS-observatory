@@ -18,18 +18,12 @@ class Sensor():
         self.check_sensor_state()
 
     def check_sensor_state(self):
-
-       
         if GPIO.input(self.gpio) == 1:
             self.state = "COPEN"
         if GPIO.input(self.gpio) == 0:
             self.state = "CCLOSED"
 
-        ''' test
-        print(self.name)
-        print (GPIO.input(self.gpio))
-        print(self.state)
-        '''
+
     def get_sensor_state(self):
         self.check_sensor_state()
         return self.state
