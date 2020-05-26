@@ -1,5 +1,5 @@
 # ROS2 OBSERVATORY
-![image](https://drive.google.com/uc?export=view&id=1NBTWICdMcwk3eKZdHhn6nminjx49Ptxm)
+![alt text](https://drive.google.com/uc?export=view&id=1NBTWICdMcwk3eKZdHhn6nminjx49Ptxm)
 # Table of Contents
   * [What is this?](#what-is-this)
   * [Hardware](#hardware)
@@ -28,7 +28,7 @@ The weather service uses an external API as well, [Open Weather][openweathermap]
 [openweathermap]: https://openweathermap.org/api
 
 # Hardware
-![image](https://drive.google.com/uc?export=view&id=1bYUG8yEjRu20-ClVU79otFHRpOV49OlV)
+![alt text](https://drive.google.com/uc?export=view&id=1bYUG8yEjRu20-ClVU79otFHRpOV49OlV)
 TODO
 ## Description
 
