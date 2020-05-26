@@ -63,7 +63,7 @@ class TelescopeAzMotor(TelescopeMotor):
         max = 20000
         count = 0
         
-        kit.continuous_servo[self.kit_id].throttle = 0.5
+        kit.continuous_servo[self.kit_id].throttle = -0.1
         while (self.check_angle(current_heading, angle) == False and count < max):
             self.magnetometer.print_heading()
             current_heading = self.magnetometer.get_heading()
@@ -71,14 +71,4 @@ class TelescopeAzMotor(TelescopeMotor):
 
         kit.continuous_servo[self.kit_id].throttle = 0
         
-        
-
-'''
-def main():
-    tele = TelescopeAzMotor("a", 15)
-    tele.rotate(359)
-
-
-if __name__ == '__main__':
-    main()
-'''
+    

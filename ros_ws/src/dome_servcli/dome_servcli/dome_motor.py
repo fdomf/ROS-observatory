@@ -9,8 +9,8 @@ class DomeMotor():
         self.kit_id = identifier
 
     def open(self):
-        kit.continuous_servo[self.kit_id].throttle = 0.5
+        kit.continuous_servo[self.kit_id].throttle = -0.2
     def close(self):
-        kit.continuous_servo[self.kit_id].throttle = -0.5
+        kit.continuous_servo[self.kit_id].throttle = 0.2
     def stop(self):
         kit.continuous_servo[self.kit_id].throttle = 0
