@@ -17,7 +17,11 @@
     * [Weather service](#weather-service)
   * [Author](#author)
   
-# What is this?
+# What is this? 
+
+<p align="center">
+  <img src="/docs/img/domegif.gif" />
+</p>
 
 This is a system implemented in ROS2 for controlling a miniaturized [Baader Allsky dome][baaderdome] replica. The replica emulates the behaviour of the dome within an observatory. It includes a telescope, a camera and a weather station.  
 The ROS2 system is based on a [service - client][servcli] node structure.
@@ -51,7 +55,8 @@ The weather service uses an external API as well, [Open Weather][openweathermap]
 *Note that most of the components were reused, to do a proper prototype other components should be used.*
 
 # Requirements
-The system was developed using the following
+The system was developed using the following:
+
 - Python 3.6.9
 - Ubuntu core 18.04 aarch64
 - ROS 2 Dashing Diademata
@@ -73,7 +78,7 @@ echo "source /home/ubuntu/ROS-observatory/ros_ws/install/setup.bash" >> ~/.bashr
 ```bash
 sudo apt-get install python3-pip
 ```
-4. Enable the use of I2C of the raspberry pi:
+5. Enable the use of I2C of the raspberry pi:
 
 ```bash
 sudo apt-get install -y python-smbus
@@ -86,7 +91,7 @@ pip3 install adafruit-blinka
 [i2crpi]: https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
 
 
-5. Give user permissions to access `i2c` and `gpio` without being root.
+6. Give user permissions to access `i2c` and `gpio` without being root.
 
 ## Libraries
 The system uses the following libraries:
@@ -153,9 +158,9 @@ The weather service can perform the following actions:
 |-------|-----------|
 |  info | `ros2 run weather_servcli info` |
 
-It returns the weather information regarding the cooridnates (Latitude / Longitude) of your area using the [openweathermap.org][openweather] service.
+It returns the weather information regarding the cooridnates *(Latitude & Longitude)* of your area using the [openweathermap.org][openweather] service.
 
 [openweather]: https://openweathermap.org
 
 # Author
-- [Francesc Domene](https://github.com/fdomf/)
+[Francesc Domene](https://github.com/fdomf/)
