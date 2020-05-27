@@ -153,7 +153,9 @@ The weather service can perform the following actions:
 |-------|-----------|
 |  info | `ros2 run weather_servcli info` |
 
-It returns the weather information regarding the cooridnates (Latitude / Longitude) of your area.
+It returns the weather information regarding the cooridnates (Latitude / Longitude) of your area using the [openweathermap.org][openweather] service.
+
+[openweather]: https://openweathermap.org
 
 # Author
 - [Francesc Domene](https://github.com/fdomf/)
