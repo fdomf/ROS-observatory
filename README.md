@@ -19,7 +19,7 @@
   
 # What is this? 
 
-![](/docs/img/domegif.gif)
+<div style="text-align:center"><img src="/docs/img/domegif.gif" /></div>
 
 This is a system implemented in ROS2 for controlling a miniaturized [Baader Allsky dome][baaderdome] replica. The replica emulates the behaviour of the dome within an observatory. It includes a telescope, a camera and a weather station.  
 The ROS2 system is based on a [service - client][servcli] node structure.
