@@ -53,7 +53,8 @@ The weather service uses an external API as well, [Open Weather][openweathermap]
 *Note that most of the components were reused, to do a proper prototype other components should be used.*
 
 # Requirements
-The system was developed using the following
+The system was developed using the following:
+
 - Python 3.6.9
 - Ubuntu core 18.04 aarch64
 - ROS 2 Dashing Diademata
