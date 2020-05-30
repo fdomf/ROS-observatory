@@ -4,9 +4,12 @@
 ![](/docs/img/dome.png)
 
 # Table of Contents
-  * [What is this?](#what-is-this)
+  * [Description](#description)
   * [Hardware](#hardware)
     * [Components](#components)
+  * [Software architecutre](#software_architecutre)
+    * [ROS2 node structure](#ros2_node_structure)
+    * [Class diagrams](#class_diagrams)
   * [Requirements](#requirements)
   * [Installation](#installation)
     * [Libraries](#libraries)
@@ -17,19 +20,19 @@
     * [Weather service](#weather-service)
   * [Author](#author)
   
-# What is this? 
+# Description 
 
 <p align="center">
   <img src="/docs/img/domegif.gif" />
 </p>
 
-This is a system implemented in ROS2 for controlling a miniaturized [Baader Allsky dome][baaderdome] replica. The replica emulates the behaviour of the dome within an observatory. It includes a telescope, a camera and a weather station.  
+A ROS2 system for controlling a miniaturized [Baader Allsky dome][baaderdome] replica. The replica emulates the behaviour of the dome within an observatory. It includes a telescope, a camera and a weather station.  
 The ROS2 system is based on a [service - client][servcli] node structure.
 
-The telescope mount is an [Altazimuth mount][altaz], it rotates to the desired position given the altitude and azimuth in degrees.
+The telescope mount is an [Altazimuth mount][altaz]. It rotates to the desired position given the altitude and azimuth in degrees.
 
 The camera service can take images and analyze them using the [Astromtetry][astrometry] API.  
-The weather service uses an external API as well, [Open Weather][openweathermap]. With the latitude - longitude coordinates it retrieves the weather in the area. This simualtes a weather station in the observatory environment.
+The weather service uses an external API as well, [Open Weather][openweathermap]. With the latitude - longitude coordinates it retrieves the weather in the area. This simulates a weather station in the observatory environment.
 
 [baaderdome]: https://www.baader-planetarium.com/en/domes/baader-allsky-domes-(2.3---6.5-meter).html
 [servcli]: https://index.ros.org/doc/ros2/Tutorials/Services/Understanding-ROS2-Services/
@@ -53,6 +56,14 @@ The weather service uses an external API as well, [Open Weather][openweathermap]
 + 8x Mini neodymium magnets
 
 *Note that most of the components were reused, to do a proper prototype other components should be used.*
+
+# Software architecutre
+
+## ROS2 node structure
+![](/docs/img/ros_sys.png)
+
+## Class diagrams
+![](/docs/img/class_diagram.png)
 
 # Requirements
 The system was developed using the following:
