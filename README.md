@@ -7,7 +7,7 @@
   * [Description](#description)
   * [Hardware](#hardware)
     * [Components](#components)
-  * [Software architecutre](#software_architecutre)
+  * [Software architecutre](#software_architecture)
     * [ROS2 node structure](#ros2_node_structure)
     * [Class diagrams](#class_diagrams)
   * [Requirements](#requirements)
@@ -57,7 +57,7 @@ The weather service uses an external API as well, [Open Weather][openweathermap]
 
 *Note that most of the components were reused, to do a proper prototype other components should be used.*
 
-# Software architecutre
+# Software architecture
 
 ## ROS2 node structure
 ![](/docs/img/ros_sys.png)
@@ -175,3 +175,23 @@ It returns the weather information regarding the cooridnates *(Latitude & Longit
 
 # Author
 [Francesc Domene](https://github.com/fdomf/)
+
+# References
+```
+@inproceedings{2016SPIE.9913E..2VV,
+       author = {{Vilardell}, Francesc and {Artigues}, Gabriel and {Sanz}, Josep and
+         {Garc{\'\i}a-Piquer}, {\'A}lvaro and {Colom{\'e}}, Josep and
+         {Ribas}, Ignasi},
+        title = "{Using Robotic Operating System (ROS) to control autonomous observatories}",
+    booktitle = {\procspie},
+         year = 2016,
+       series = {Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},
+       volume = {9913},
+        month = jul,
+          eid = {99132V},
+        pages = {99132V},
+          doi = {10.1117/12.2232694},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2016SPIE.9913E..2VV},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+```
